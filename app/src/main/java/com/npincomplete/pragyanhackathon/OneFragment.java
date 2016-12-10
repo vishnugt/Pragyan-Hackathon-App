@@ -2,13 +2,20 @@ package com.npincomplete.pragyanhackathon;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentActivity;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.google.android.gms.common.GooglePlayServicesNotAvailableException;
+import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.MapView;
+import com.google.android.gms.maps.MapsInitializer;
 import com.google.android.gms.maps.OnMapReadyCallback;
+import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
@@ -18,41 +25,55 @@ import com.google.android.gms.maps.model.MarkerOptions;
  * Created by Meliodas on 09/12/2016.
  */
 
-public class OneFragment extends Fragment implements
-        GoogleMap.OnMarkerClickListener,
-        OnMapReadyCallback {
+public class OneFragment extends Fragment{
 
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_one, container, false);
-    }
+        MapView mapView;
+        GoogleMap map;
 
-    private GoogleMap mMap;
-    public OneFragment() {
-    }
+@Override
+public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        View v = inflater.inflate(R.layout.fragment_one, container, false);
 
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+        mapView = (MapView) v.findViewById(R.id.mapview);
+        mapView.onCreate(savedInstanceState);
 
-    }
+        // Gets to GoogleMap from the MapView and does initialization stuff
+        map = mapView.getMap();
+        map.getUiSettings().setMyLocationButtonEnabled(false);
+        map.setMyLocationEnabled(true);
 
-    @Override
-    public void onMapReady(GoogleMap map) {
-        mMap = map;
+        MapsInitializer.initialize(this.getActivity());
+
         GPSTracker tracker = new GPSTracker(getActivity());
-        mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(tracker.getLatitude(), tracker.getLongitude()), 14));
-        map.addMarker(new MarkerOptions()
-                .position(new LatLng(tracker.getLatitude(), tracker.getLongitude()))
-                .title("You are here!"));
-        mMap.setOnMarkerClickListener(this);
-    }
+        // Updates the location and zoom of the MapView
+        CameraUpdate cameraUpdate = CameraUpdateFactory.newLatLngZoom(new LatLng(tracker.getLatitude(), tracker.getLongitude()), 15F);
+        map.animateCamera(cameraUpdate);
 
-    @Override
-    public boolean onMarkerClick(final Marker marker) {
-        return false;
-    }
+        return v;
+        }
 
+@Override
+public void onResume() {
+        mapView.onResume();
+        super.onResume();
+        }
 
-}
+@Override
+public void onPause() {
+        super.onPause();
+        mapView.onPause();
+        }
+
+@Override
+public void onDestroy() {
+        super.onDestroy();
+        mapView.onDestroy();
+        }
+
+@Override
+public void onLowMemory() {
+        super.onLowMemory();
+        mapView.onLowMemory();
+        }
+
+        }

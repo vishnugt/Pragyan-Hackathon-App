@@ -32,10 +32,6 @@ import java.io.OutputStreamWriter;
 import java.io.StringWriter;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-
 import static android.content.Context.MODE_PRIVATE;
 
 /**
@@ -105,7 +101,7 @@ public class TwoFragment extends ListFragment implements AdapterView.OnItemClick
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position,long id) {
-        Toast.makeText(getActivity(), "Item: " + idarray[position], Toast.LENGTH_SHORT).show();
+       // Toast.makeText(getActivity(), "Item: " + idarray[position], Toast.LENGTH_SHORT).show();
 
         progress = new ProgressDialog(getActivity());
         progress.setTitle("Loading");
@@ -161,7 +157,7 @@ public class TwoFragment extends ListFragment implements AdapterView.OnItemClick
 
         @Override
         protected void onPostExecute(String result) {
-            Toast.makeText(getActivity().getApplicationContext(), outputresponse, Toast.LENGTH_SHORT).show();
+          //  Toast.makeText(getActivity().getApplicationContext(), outputresponse, Toast.LENGTH_SHORT).show();
             //Intent outputintent = new Intent(getBaseContext(), OutputActivity.class);
             //outputintent.putExtra("json", outputresponse);
             //startActivity(outputintent);
@@ -225,7 +221,7 @@ public class TwoFragment extends ListFragment implements AdapterView.OnItemClick
 
         @Override
         protected void onPostExecute(String result) {
-            Toast.makeText(getActivity().getApplicationContext(), outputresponse, Toast.LENGTH_SHORT).show();
+           // Toast.makeText(getActivity().getApplicationContext(), outputresponse, Toast.LENGTH_SHORT).show();
             //Intent outputintent = new Intent(getBaseContext(), OutputActivity.class);
             //outputintent.putExtra("json", outputresponse);
             //startActivity(outputintent);
@@ -246,7 +242,7 @@ public class TwoFragment extends ListFragment implements AdapterView.OnItemClick
 
     public void aftercomplete()
     {
-        Toast.makeText(getActivity(), outputresponse, Toast.LENGTH_SHORT).show();
+        //Toast.makeText(getActivity(), outputresponse, Toast.LENGTH_SHORT).show();
         String temp = "";
         String tempid = "";
 

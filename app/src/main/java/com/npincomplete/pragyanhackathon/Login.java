@@ -100,7 +100,7 @@ public class Login extends AppCompatActivity {
 
         @Override
         protected void onPostExecute(String result) {
-            Toast.makeText(getApplicationContext(), outputresponse, Toast.LENGTH_SHORT).show();
+            //Toast.makeText(getApplicationContext(), outputresponse, Toast.LENGTH_SHORT).show();
             aftercomplete();
         }
 
