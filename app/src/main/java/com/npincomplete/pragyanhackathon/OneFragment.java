@@ -2,6 +2,7 @@ package com.npincomplete.pragyanhackathon;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.ListFragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,10 +11,9 @@ import android.view.ViewGroup;
  * Created by Meliodas on 09/12/2016.
  */
 
-public class OneFragment extends Fragment {
+public class OneFragment extends android.support.v4.app.Fragment {
 
     public OneFragment() {
-        // Required empty public constructor
     }
 
     @Override
