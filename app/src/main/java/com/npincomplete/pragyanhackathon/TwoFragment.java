@@ -90,7 +90,7 @@ public class TwoFragment extends ListFragment implements AdapterView.OnItemClick
         listView = (ListView) view.findViewById(android.R.id.list);
 
 
-return view;
+        return view;
 
     }
 
@@ -116,8 +116,8 @@ return view;
                 Double.toString(tracker.getLatitude()),
                 Double.toString(tracker.getLongitude()),
                 idarray[position],
-                phoneNum,
-                uName);
+                uName,
+                phoneNum);
     }
 
     String outputresponse = "a a";
@@ -191,10 +191,9 @@ return view;
             {
                 json.put("lat",params[0]);
                 json.put("long", params[1]);
-                json.put("id", params[2]);
-                json.put("phoneNum", params[3]);
-                json.put("uName", params[4]);
-
+                json.put("Hosp_id", Integer.parseInt(params[2]));
+                json.put("name", params[3]);
+                json.put("phone", params[4]);
             }catch (JSONException j)
 
             {
@@ -202,12 +201,12 @@ return view;
             }
 
             try {
-                URL url = new URL("https://data.archon40.hasura-app.io/v1/query");
+                URL url = new URL("http://23b8e3b4.ngrok.io/user/emergency");
                 HttpURLConnection connection = (HttpURLConnection) url.openConnection();
                 connection.setRequestMethod("POST");
                 connection.setDoOutput(true);
-                connection.setRequestProperty("Content-Type", "text/plain");
-                connection.setRequestProperty("Authorization", "Bearer " + auth_token);
+                connection.setRequestProperty("Content-Type", "application/json");
+                //connection.setRequestProperty("Authorization", "Bearer " + auth_token);
                 OutputStreamWriter osw = new OutputStreamWriter(connection.getOutputStream());
                 osw.write(String.format( String.valueOf(json)));
                 osw.flush();
@@ -287,7 +286,7 @@ return view;
     {
         progress.dismiss();
         Intent intent = new Intent(getActivity(), hospital_activity.class);
-        intent.putExtra("json", outputresponse);
+        intent.putExtra("outputresponse", outputresponse);
         startActivity(intent);
 
 

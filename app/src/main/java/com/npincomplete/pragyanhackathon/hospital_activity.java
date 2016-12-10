@@ -1,15 +1,22 @@
 package com.npincomplete.pragyanhackathon;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
+import android.util.Log;
+import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
+
+import org.json.JSONException;
+import org.json.JSONObject;
 
 /**
  * An activity that displays a map showing places around the device's current location.
@@ -18,21 +25,37 @@ public class hospital_activity extends FragmentActivity implements
         GoogleMap.OnMarkerClickListener,
         OnMapReadyCallback {
 
-    private static final LatLng PERTH = new LatLng(-31.952854, 115.857342);
-    private static final LatLng SYDNEY = new LatLng(-33.87365, 151.20689);
-    private static final LatLng BRISBANE = new LatLng(-27.47093, 153.0235);
 
-    private Marker mPerth;
-    private Marker mSydney;
-    private Marker mBrisbane;
+    public Double tomovlat, tomovlong;
 
     private GoogleMap mMap;
+    TextView tv;
+    JSONObject json;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hostpital_detail_activity);
 
+
+        tv = (TextView)findViewById(R.id.textView2);
+        String temp = "The Ambulance with number ";
+        Intent intent = getIntent();
+        String outputresponse = intent.getStringExtra("outputresponse");
+
+        try{
+            json = new JSONObject(outputresponse);
+            tomovlat = Double.parseDouble(json.getString("Lat"));
+            tomovlong = Double.parseDouble(json.getString("Long"));
+            Float secondss = Float.parseFloat(json.getString("Time"));
+            temp = temp + json.getString("Vehicle_no") + " will arrive in " + Float.toString(secondss/3600) + " hours.  Driver's Phone Number is " + json.getString("Phone");
+        }
+        catch(JSONException j)
+        {
+        Log.d("jsonerror", json.toString());
+        }
+
+        tv.setText(temp);
         SupportMapFragment mapFragment =
                 (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
@@ -43,21 +66,11 @@ public class hospital_activity extends FragmentActivity implements
     public void onMapReady(GoogleMap map) {
         mMap = map;
 
-        // Add some markers to the map, and add a data object to each marker.
-        mPerth = mMap.addMarker(new MarkerOptions()
-                .position(PERTH)
-                .title("Perth"));
-
-        mSydney = mMap.addMarker(new MarkerOptions()
-                .position(SYDNEY)
-                .title("Sydney"));
-
-        mBrisbane = mMap.addMarker(new MarkerOptions()
-                .position(BRISBANE)
-                .title("Brisbane")
-                );
-
-        // Set a listener for marker click.
+        GPSTracker tracker = new GPSTracker(getApplicationContext());
+        mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(tomovlat, tomovlong), 14));
+        map.addMarker(new MarkerOptions()
+                .position(new LatLng(tomovlat, tomovlong))
+                .title("Ambulance is here"));
         mMap.setOnMarkerClickListener(this);
     }
 

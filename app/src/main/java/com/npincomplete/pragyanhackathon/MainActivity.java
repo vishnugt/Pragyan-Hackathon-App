@@ -1,9 +1,11 @@
 package com.npincomplete.pragyanhackathon;
 
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.ConnectivityManager;
+import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
 import android.provider.Settings;
@@ -15,8 +17,20 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.text.TextUtils;
+import android.util.Log;
+import android.view.View;
 import android.widget.Toast;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -123,4 +137,107 @@ public class MainActivity extends AppCompatActivity {
             return mFragmentTitleList.get(position);
         }
     }
+
+
+    String auth_token;
+    String phoneNum;
+    String uName;
+
+
+
+
+
+    public void emergencyfunc(View view)
+    {
+
+        SharedPreferences prefs = getSharedPreferences("db", MODE_PRIVATE);
+        auth_token = prefs.getString("isRegistered", null);
+        phoneNum = prefs.getString("phoneNum", null);
+        uName = prefs.getString("uName", null);
+
+        tracker = new GPSTracker(this);
+        progress = new ProgressDialog(this);
+        progress.setTitle("Loading");
+        progress.setMessage("Wait while loading...");
+        progress.setCancelable(false);
+        progress.show();
+        new LongOperation().execute(
+                Double.toString(tracker.getLatitude()),
+                Double.toString(tracker.getLongitude()),
+                uName,
+                phoneNum
+        );
+    }
+
+    JSONObject json;
+    String outputresponse;
+    ProgressDialog progress;
+
+    private class LongOperation extends AsyncTask<String, Void, String> {
+        @Override
+        protected String doInBackground(String... params) {
+
+            json = new JSONObject();
+            try
+            {
+                json.put("lat",params[0]);
+                json.put("long", params[1]);
+                json.put("name", params[2]);
+                json.put("phone", params[3]);
+            }catch (JSONException j)
+
+            {
+                Log.d("Second_Fragment", "Err");
+            }
+
+            try {
+                URL url = new URL("http://23b8e3b4.ngrok.io/user/emergency");
+                HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+                connection.setRequestMethod("POST");
+                connection.setDoOutput(true);
+                connection.setRequestProperty("Content-Type", "application/json");
+                //connection.setRequestProperty("Authorization", "Bearer " + auth_token);
+                OutputStreamWriter osw = new OutputStreamWriter(connection.getOutputStream());
+                osw.write(String.format( String.valueOf(json)));
+                osw.flush();
+                osw.close();
+
+
+                InputStream stream = connection.getInputStream();
+                InputStreamReader isReader = new InputStreamReader(stream );
+                BufferedReader br = new BufferedReader(isReader );
+                outputresponse = br.readLine();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            return "";
+        }
+
+        @Override
+        protected void onPostExecute(String result) {
+            //Toast.makeText(getActivity().getApplicationContext(), json.toString(), Toast.LENGTH_SHORT).show();
+            aftercomplete();
+        }
+
+        @Override
+        protected void onPreExecute() {
+        }
+
+        @Override
+        protected void onProgressUpdate(Void... values) {
+        }
+    }
+
+    GPSTracker tracker;
+
+
+    public void aftercomplete()
+    {
+        Toast.makeText(this, outputresponse, Toast.LENGTH_SHORT).show();
+        progress.dismiss();
+        Intent intent = new Intent(this, hospital_activity.class);
+        intent.putExtra("outputresponse", outputresponse);
+        startActivity(intent);
+    }
+
 }
