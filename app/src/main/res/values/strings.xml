@@ -15,4 +15,6 @@
         completions."
     </string>
     <string name="title_activity_otp">OTP</string>
+    <string name="google_maps_key">AIzaSyAYvNmbjcpZafG8ptlhTNzroCyPFrV8DVY</string>
+    <string name="title_activity_main2">Main2Activity</string>
 </resources>

@@ -48,6 +48,9 @@ public class TwoFragment extends ListFragment implements AdapterView.OnItemClick
     ProgressDialog progress;
 
     String auth_token;
+    String phoneNum;
+    String uName;
+
 
     public TwoFragment() {
     }
@@ -71,6 +74,8 @@ public class TwoFragment extends ListFragment implements AdapterView.OnItemClick
 
         SharedPreferences prefs = getActivity().getSharedPreferences("db", MODE_PRIVATE);
         auth_token = prefs.getString("isRegistered", null);
+        phoneNum = prefs.getString("phoneNum", null);
+        uName = prefs.getString("uName", null);
 
         progress = new ProgressDialog(getActivity());
         progress.setTitle("Loading");
@@ -110,9 +115,9 @@ return view;
         new LongOperation2().execute(
                 Double.toString(tracker.getLatitude()),
                 Double.toString(tracker.getLongitude()),
-                Integer.toString(position),
-                "aa",
-                "9898798");
+                idarray[position],
+                phoneNum,
+                uName);
     }
 
     String outputresponse = "a a";
@@ -186,9 +191,9 @@ return view;
             {
                 json.put("lat",params[0]);
                 json.put("long", params[1]);
-                json.put("position", params[2]);
-                json.put("name", params[3]);
-                json.put("phonenum", params[4]);
+                json.put("id", params[2]);
+                json.put("phoneNum", params[3]);
+                json.put("uName", params[4]);
 
             }catch (JSONException j)
 
@@ -202,6 +207,7 @@ return view;
                 connection.setRequestMethod("POST");
                 connection.setDoOutput(true);
                 connection.setRequestProperty("Content-Type", "text/plain");
+                connection.setRequestProperty("Authorization", "Bearer " + auth_token);
                 OutputStreamWriter osw = new OutputStreamWriter(connection.getOutputStream());
                 osw.write(String.format( String.valueOf(json)));
                 osw.flush();
@@ -277,10 +283,12 @@ return view;
     }
 
     public void aftercomplete2()
+
     {
         progress.dismiss();
-
-
+        Intent intent = new Intent(getActivity(), hospital_activity.class);
+        intent.putExtra("json", outputresponse);
+        startActivity(intent);
 
 
     }

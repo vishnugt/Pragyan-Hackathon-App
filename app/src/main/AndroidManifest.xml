@@ -25,17 +25,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <uses-library android:name="com.google.android.maps" />
-
         <activity android:name=".hospital_activity" />
         <activity
             android:name=".Login"
             android:label="@string/title_activity_login"
             android:theme="@style/MyMaterialTheme" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAlAiTR7r4TlJKzM0KE4CBMpZnzw4wvOxQ" />
+
         <activity
             android:name=".OTP"
             android:label="@string/title_activity_otp"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2"
             android:theme="@style/MyMaterialTheme"></activity>
     </application>
 

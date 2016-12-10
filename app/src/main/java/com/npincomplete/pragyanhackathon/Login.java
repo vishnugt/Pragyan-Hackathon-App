@@ -132,6 +132,8 @@ public class Login extends AppCompatActivity {
 
         SharedPreferences.Editor editor = getSharedPreferences("db", MODE_PRIVATE).edit();
         editor.putString("isRegistered", auth_token);
+        editor.putString("phoneNum", et2.getText().toString());
+        editor.putString("uName", et1.getText().toString());
         editor.commit();
 
         Log.d("login", auth_token);
