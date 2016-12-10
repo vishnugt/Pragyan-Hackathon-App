@@ -1,6 +1,8 @@
 package com.npincomplete.pragyanhackathon;
 
 import android.content.Context;
+import android.content.Intent;
+import android.content.SharedPreferences;
 import android.net.ConnectivityManager;
 import android.os.Build;
 import android.os.Bundle;
@@ -24,8 +26,6 @@ public class MainActivity extends AppCompatActivity {
     private Toolbar toolbar;
     private TabLayout tabLayout;
     private ViewPager viewPager;
-
-
 
     public static boolean isLocationEnabled(Context context) {
         int locationMode = 0;
@@ -60,6 +60,18 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this, "Please Enable GPS and Data and Try again", Toast.LENGTH_SHORT).show();
             //this.finish();
             System.exit(0);
+        }
+
+
+        SharedPreferences prefs = getSharedPreferences("db", MODE_PRIVATE);
+        String isRegistered = prefs.getString("isRegistered", null);
+
+        if(isRegistered == null)
+        {
+            Intent intent = new Intent(this, Login.class);
+            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
+            startActivity(intent);
+            finish();
         }
 
 
