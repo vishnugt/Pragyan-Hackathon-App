@@ -9,7 +9,7 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="1">
+        android:layout_weight="2">
         <com.google.android.gms.maps.MapView android:id="@+id/mapview"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent" />
@@ -19,23 +19,28 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="1">
+        android:layout_weight="3"
+        android:elevation="20dp">
 
 
     <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1">
+            android:layout_weight="3">
 
         <TextView
-            android:text="Please note that this will generate an Emergency Request! Please use with caution"
+            android:gravity="center"
+            android:text="Please note that this will generate an Emergency Request! Please use with caution! "
             android:layout_width="match_parent"
+            android:background="@color/common_plus_signin_btn_text_light_focused"
             android:layout_height="wrap_content"
-            android:textSize="20dp"
+            android:textSize="17dp"
+            android:textColor="@color/cardview_light_background"
             android:id="@+id/textView2"
             android:layout_marginLeft="10sp"
-            android:layout_marginTop="10sp"/>
+            android:layout_marginRight="10sp"
+            android:layout_marginTop="15sp"/>
     </LinearLayout>
 
 
@@ -43,11 +48,11 @@
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1">
+            android:layout_weight="2">
 
             <Button
                 android:layout_marginBottom="70sp"
-                android:text="Place Emergency"
+                android:text="Request Emergency"
                 android:layout_marginLeft="10sp"
                 android:layout_marginRight="10sp"
                 android:onClick="emergencyfunc"

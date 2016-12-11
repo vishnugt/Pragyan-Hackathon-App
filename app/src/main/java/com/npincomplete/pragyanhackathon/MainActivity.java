@@ -64,7 +64,11 @@ public class MainActivity extends AppCompatActivity {
         ConnectivityManager cm = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
         return cm.getActiveNetworkInfo() != null;
     }
-
+    private int[] tabIcons = {
+            R.drawable.ic_heart,
+            R.drawable.ic_hospital,
+            R.drawable.ic_location
+    };
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -99,13 +103,20 @@ public class MainActivity extends AppCompatActivity {
 
         tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(viewPager);
+
+        tabLayout.getTabAt(0).setIcon(tabIcons[0]);
+        tabLayout.getTabAt(1).setIcon(tabIcons[1]);
+        tabLayout.getTabAt(2).setIcon(tabIcons[2]);
+
     }
 
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
         adapter.addFragment(new OneFragment(), "Emergency Request");
         adapter.addFragment(new TwoFragment(), "Request Ambulance by Hospital");
+        adapter.addFragment(new ThreeFragment(), "Hospital Details");
         //adapter.addFragment(new ThreeFragment(), "THREE");
+
         viewPager.setAdapter(adapter);
     }
 

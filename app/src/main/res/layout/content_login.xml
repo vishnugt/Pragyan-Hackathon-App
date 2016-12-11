@@ -48,6 +48,5 @@
             android:onClick="btnfunc"
             android:text="Login"/>
 
-
     </LinearLayout>
 </ScrollView>
