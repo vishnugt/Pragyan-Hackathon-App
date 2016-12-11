@@ -102,6 +102,10 @@ public class ThreeFragment extends ListFragment implements AdapterView.OnItemCli
         intent.putExtra("address", addressarr[position]);
         intent.putExtra("phone", phonearr[position]);
         intent.putExtra("name", stringarray[position]);
+        intent.putExtra("auth_token", auth_token);
+        intent.putExtra("id", idarray[position]);
+        intent.putExtra("rating", ratingarr[position]);
+
         startActivity(intent);
 
     }
@@ -124,7 +128,7 @@ public class ThreeFragment extends ListFragment implements AdapterView.OnItemCli
                         "\t\"type\":\"select\",\n" +
                         "\t\"args\":{\n" +
                         "\t\t\"table\":\"hospital\",\n" +
-                        "\t\t\"columns\":[\"id\",\"name\",\"address\",\"phone\"]\n" +
+                        "\t\t\"columns\":[\"id\",\"name\",\"address\",\"phone\",\"rating\"]\n" +
                         "\t}\n" +
                         "}")));
                 osw.flush();
@@ -170,7 +174,7 @@ public class ThreeFragment extends ListFragment implements AdapterView.OnItemCli
 
 
     GPSTracker tracker;
-
+    String[] ratingarr = null;
 
     public void aftercomplete()
     {
@@ -180,6 +184,7 @@ public class ThreeFragment extends ListFragment implements AdapterView.OnItemCli
         String tempaadd = "";
         String temp2 = "";
         String temp3 = "";
+        String rat = "";
         Log.d("json", outputresponse);
         try
         {
@@ -190,6 +195,7 @@ public class ThreeFragment extends ListFragment implements AdapterView.OnItemCli
                 tempid = tempid + jsonobject.getString("id") + "@@";
                 tempaadd = tempaadd + jsonobject.getString("address") + "@@";
                 temp2 = temp2 + jsonobject.getString("phone") + "@@";
+                rat = rat + jsonobject.getString("rating") + "@@";
             }
         }
         catch(JSONException j)
@@ -201,6 +207,7 @@ public class ThreeFragment extends ListFragment implements AdapterView.OnItemCli
         stringarray = temp.split("@@");
         addressarr = tempaadd.split("@@");
         phonearr = temp2.split("@@");
+        ratingarr = rat.split("@@");
 
         ArrayAdapter adapter = new ArrayAdapter(getActivity(), android.R.layout.simple_list_item_1, stringarray);
         listView.setAdapter(adapter);

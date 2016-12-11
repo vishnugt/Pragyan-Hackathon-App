@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:id="@+id/activity_display_addr"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -11,10 +12,99 @@
     tools:context="com.npincomplete.pragyanhackathon.DisplayAddr">
 
     <TextView
-        android:text=""
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hosp_name"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_margin="10sp"
+        android:text="Hospital Address :"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:textStyle="italic"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:layout_margin="10sp"
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hosp_addr"
+        android:textSize="18dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_margin="10sp"
+        android:text="Hospital Phone Number :"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView7"
+        android:textSize="18dp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_margin="10sp"
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hosp_phone"
+        android:textSize="18dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_margin="10sp"
+        android:text="Hospital Rating:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView9"
+        android:textSize="18dp"
+        android:textStyle="italic"/>
+
+    <RatingBar
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
+        android:layout_above="@+id/textView4"
+        android:layout_alignLeft="@+id/ratingBar"
+        android:layout_alignStart="@+id/ratingBar"
+        android:id="@+id/ratingBar2"
+        android:layout_gravity="center"/>
+
+
+    <TextView
+        android:layout_margin="10sp"
+        android:text="Your Rating :"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView10"
+        android:textStyle="italic"
+        android:textSize="18dp"/>
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar"
+        android:layout_marginBottom="22dp"
+        android:layout_above="@+id/button"
         android:layout_centerHorizontal="true"
-        android:id="@+id/textView3" />
-</RelativeLayout>
+        android:layout_gravity="center"/>
+
+    <Button
+        android:text="Submit Rating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:textColor="@color/emergency"
+        android:background="@color/background"
+        android:id="@+id/button"
+        android:onClick="btnfunc"
+        android:gravity="center"/>
+
+</LinearLayout>
