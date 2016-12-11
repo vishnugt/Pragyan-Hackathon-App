@@ -2,6 +2,7 @@ package com.npincomplete.pragyanhackathon;
 
 
 import android.app.ProgressDialog;
+import android.content.DialogInterface;
 import android.content.SharedPreferences;
 import android.os.AsyncTask;
 import android.support.v4.app.Fragment;
@@ -10,6 +11,7 @@ import android.support.v4.app.ListFragment;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v7.app.AlertDialog;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -99,21 +101,34 @@ public class TwoFragment extends ListFragment implements AdapterView.OnItemClick
 
 
 
+    int poss = 0;
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position,long id) {
        // Toast.makeText(getActivity(), "Item: " + idarray[position], Toast.LENGTH_SHORT).show();
 
-        progress = new ProgressDialog(getActivity());
-        progress.setTitle("Loading");
-        progress.setMessage("Wait while loading...");
-        progress.setCancelable(false);
-        progress.show();
-        new LongOperation2().execute(
-                Double.toString(tracker.getLatitude()),
-                Double.toString(tracker.getLongitude()),
-                idarray[position],
-                uName,
-                phoneNum);
+        poss = position;
+
+        new AlertDialog.Builder(getActivity())
+                .setTitle("Are you sure?")
+                .setMessage("This will place an ambulance request! Use with caution! Make use of the next tab for hospital details")
+                .setIcon(android.R.drawable.ic_dialog_info)
+                .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+
+                    public void onClick(DialogInterface dialog, int whichButton) {
+                        progress = new ProgressDialog(getActivity());
+                        progress.setTitle("Loading");
+                        progress.setMessage("Wait while loading...");
+                        progress.setCancelable(false);
+                        progress.show();
+                        new LongOperation2().execute(
+                                Double.toString(tracker.getLatitude()),
+                                Double.toString(tracker.getLongitude()),
+                                idarray[poss],
+                                uName,
+                                phoneNum);
+                        }})
+                .setNegativeButton(android.R.string.no, null).show();
+
     }
 
     String outputresponse = "a a";
