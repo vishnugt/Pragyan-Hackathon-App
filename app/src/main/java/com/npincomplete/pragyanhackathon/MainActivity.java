@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
         SharedPreferences prefs = getSharedPreferences("db", MODE_PRIVATE);
         String isRegistered = prefs.getString("isRegistered", null);
 
-        if(isRegistered == null)
+        if(isRegistered == "l")
         {
             Intent intent = new Intent(this, Login.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
@@ -202,7 +202,7 @@ public class MainActivity extends AppCompatActivity {
             }
 
             try {
-                URL url = new URL("http://23b8e3b4.ngrok.io/user/emergency");
+                URL url = new URL("http://02a4ba0f.ngrok.io/user/emergency");
                 HttpURLConnection connection = (HttpURLConnection) url.openConnection();
                 connection.setRequestMethod("POST");
                 connection.setDoOutput(true);

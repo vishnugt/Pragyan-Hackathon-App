@@ -41,6 +41,7 @@
             android:layout_marginLeft="10sp"
             android:layout_marginRight="10sp"
             android:layout_marginTop="15sp"/>
+
     </LinearLayout>
 
 
@@ -50,17 +51,61 @@
             android:layout_height="match_parent"
             android:layout_weight="2">
 
-            <Button
-                android:layout_marginBottom="70sp"
-                android:text="Request Emergency"
-                android:layout_marginLeft="10sp"
-                android:layout_marginRight="10sp"
-                android:onClick="emergencyfunc"
-                android:textColor="@color/emergency"
-                android:background="@color/background"
+            <LinearLayout
+                android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:id="@+id/button2" />
+                android:layout_marginBottom="80sp">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <Button
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginRight="10sp"
+                        android:textColor="@color/emergency"
+                        android:background="@color/background"
+                        android:text="Police"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <Button
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginRight="10sp"
+                        android:textColor="@color/emergency"
+                        android:background="@color/background"
+                        android:text="Ambulance"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <Button
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginRight="10sp"
+                        android:textColor="@color/emergency"
+                        android:background="@color/background"
+                        android:text="Fire"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+            </LinearLayout>
         </LinearLayout>
 
         </LinearLayout>
