@@ -162,8 +162,12 @@ public class MainActivity extends AppCompatActivity {
 
     public void ambbtn(View view)
     {
+        Intent intent  = new Intent(this, D_Ambulance.class);
+        startActivity(intent);
 
-        new AlertDialog.Builder(this)
+    }
+
+     /*   new AlertDialog.Builder(this)
                 .setTitle("Place Immediately?")
                 .setMessage("This will place a request! Use with caution! Please fill details if not in a hurry")
                 .setIcon(android.R.drawable.ic_dialog_info)
@@ -189,7 +193,7 @@ public class MainActivity extends AppCompatActivity {
                     }})
                 .show();
     }
-
+*/
 
 
     public void policebtn(View view)
