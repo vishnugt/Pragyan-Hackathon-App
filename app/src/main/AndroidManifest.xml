@@ -40,7 +40,6 @@
             android:label="@string/title_activity_otp"
             android:theme="@style/MyMaterialTheme" />
 
-
         <service
             android:name=".MyFirebaseMessagingService"
             android:enabled="true"
@@ -49,16 +48,18 @@
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
-
         <service
             android:name=".FirebaseIDService"
             android:enabled="true"
             android:exported="true">
             <intent-filter>
-                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
         </service>
 
+        <activity android:name=".A_ambActivity" />
+        <activity android:name=".A_policeActivity" />
+        <activity android:name=".A_fireActivity"></activity>
     </application>
 
 </manifest>

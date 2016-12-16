@@ -57,21 +57,6 @@
                 android:layout_height="match_parent"
                 android:layout_marginBottom="80sp">
 
-                <LinearLayout
-                    android:orientation="horizontal"
-                    android:layout_weight="1"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-                    <Button
-                        android:layout_marginLeft="10sp"
-                        android:layout_marginRight="10sp"
-                        android:textColor="@color/emergency"
-                        android:background="@color/background"
-                        android:text="Police"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1" />
-                </LinearLayout>
 
                 <LinearLayout
                     android:orientation="horizontal"
@@ -84,6 +69,7 @@
                         android:textColor="@color/emergency"
                         android:background="@color/background"
                         android:text="Ambulance"
+                        android:onClick="ambbtn"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1" />
@@ -99,7 +85,26 @@
                         android:layout_marginRight="10sp"
                         android:textColor="@color/emergency"
                         android:background="@color/background"
+                        android:text="Police"
+                        android:onClick="policebtn"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <Button
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginRight="10sp"
+                        android:textColor="@color/emergency"
+                        android:background="@color/background"
                         android:text="Fire"
+                        android:onClick="firebtn"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1" />

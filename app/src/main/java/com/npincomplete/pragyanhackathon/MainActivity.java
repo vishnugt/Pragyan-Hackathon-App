@@ -81,6 +81,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
 
+
         SharedPreferences prefs = getSharedPreferences("db", MODE_PRIVATE);
         String isRegistered = prefs.getString("isRegistered", null);
 
@@ -96,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         viewPager = (ViewPager) findViewById(R.id.viewpager);
         setupViewPager(viewPager);
@@ -157,6 +158,26 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+    public void ambbtn(View view)
+    {
+        Intent intent = new Intent(this, A_ambActivity.class);
+        startActivity(intent);
+    }
+
+
+
+    public void policebtn(View view)
+    {
+        Intent intent = new Intent(this, A_policeActivity.class);
+        startActivity(intent);
+    }
+
+
+    public void firebtn(View view)
+    {
+        Intent intent = new Intent(this, A_fireActivity.class);
+        startActivity(intent);
+    }
 
     public void emergencyfunc(View view)
     {
