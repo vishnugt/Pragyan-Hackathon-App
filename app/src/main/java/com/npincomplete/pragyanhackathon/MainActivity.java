@@ -83,11 +83,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        if(!(isLocationEnabled(this) || isNetworkConnected() ) )
+        if(!(isLocationEnabled(this) && isNetworkConnected() ) )
         {
             Toast.makeText(this, "Please Enable GPS and Data and Try again", Toast.LENGTH_SHORT).show();
-            //this.finish();
-            System.exit(0);
+            this.finish();
+            //System.exit(0);
         }
 
 
