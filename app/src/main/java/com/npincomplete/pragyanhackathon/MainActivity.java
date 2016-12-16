@@ -82,6 +82,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         if(!(isLocationEnabled(this) || isNetworkConnected() ) )
         {
             Toast.makeText(this, "Please Enable GPS and Data and Try again", Toast.LENGTH_SHORT).show();
@@ -105,6 +106,8 @@ public class MainActivity extends AppCompatActivity {
             finish();
         }
 
+
+        tracker = new GPSTracker(this);
 
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -281,7 +284,6 @@ public class MainActivity extends AppCompatActivity {
         phoneNum = prefs.getString("phoneNum", null);
         uName = prefs.getString("uName", null);
 
-        tracker = new GPSTracker(this);
         progress = new ProgressDialog(this);
         progress.setTitle("Loading");
         progress.setMessage("Wait while loading...");
@@ -322,7 +324,7 @@ public class MainActivity extends AppCompatActivity {
             }
 
             try {
-                URL url = new URL("http://02a4ba0f.ngrok.io/user/emergency");
+                URL url = new URL("http://4e16c88d.ngrok.io/user/emergency");
                 HttpURLConnection connection = (HttpURLConnection) url.openConnection();
                 connection.setRequestMethod("POST");
                 connection.setDoOutput(true);
@@ -366,9 +368,9 @@ public class MainActivity extends AppCompatActivity {
     {
         Toast.makeText(this, outputresponse, Toast.LENGTH_SHORT).show();
         progress.dismiss();
-        Intent intent = new Intent(this, hospital_activity.class);
-        intent.putExtra("outputresponse", outputresponse);
-        startActivity(intent);
+        //Intent intent = new Intent(this, hospital_activity.class);
+        //intent.putExtra("outputresponse", outputresponse);
+        //startActivity(intent);
     }
 
 }
