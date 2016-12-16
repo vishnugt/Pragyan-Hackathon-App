@@ -5,15 +5,18 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
 import android.net.ConnectivityManager;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
 import android.provider.Settings;
 import android.support.design.widget.TabLayout;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+import android.support.v4.content.ContextCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -22,6 +25,8 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
+
+import com.google.firebase.iid.FirebaseInstanceId;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -35,6 +40,8 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
+
+import static android.R.attr.type;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -83,10 +90,13 @@ public class MainActivity extends AppCompatActivity {
         }
 
 
+        /*if (checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED
+                || checkSelfPermission(context, Manifest.permission.ACCESS_COARSE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
+            locationManager.requestLocationUpdates(type, period, 0, this);
+*/
 
         SharedPreferences prefs = getSharedPreferences("db", MODE_PRIVATE);
         String isRegistered = prefs.getString("isRegistered", null);
-
         if(isRegistered == "l")
         {
             Intent intent = new Intent(this, Login.class);
@@ -182,9 +192,11 @@ public class MainActivity extends AppCompatActivity {
                         new LongOperation().execute(
                                 Double.toString(tracker.getLatitude()),
                                 Double.toString(tracker.getLongitude()),
-                                "1",
                                 uName,
-                                phoneNum);
+                                phoneNum,
+                                "1",
+                                "-1",
+                                "1");
                     }})
                 .setNegativeButton("Fill Details", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int whichButton) {
@@ -213,9 +225,11 @@ public class MainActivity extends AppCompatActivity {
                         new LongOperation().execute(
                                 Double.toString(tracker.getLatitude()),
                                 Double.toString(tracker.getLongitude()),
-                                "2",
                                 uName,
-                                phoneNum);
+                                phoneNum,
+                                "2",
+                                "-1",
+                                "1");
                     }})
                 .setNegativeButton("Fill Details", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int whichButton) {
@@ -228,6 +242,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void firebtn(View view)
     {
+
+        final Context ctx = this;
         new AlertDialog.Builder(this)
                 .setTitle("Place Immediately?")
                 .setMessage("This will place a request! Use with caution! Please fill details if not in a hurry")
@@ -235,7 +251,7 @@ public class MainActivity extends AppCompatActivity {
                 .setPositiveButton("Place Immediately", new DialogInterface.OnClickListener() {
 
                     public void onClick(DialogInterface dialog, int whichButton) {
-                        progress = new ProgressDialog(getApplicationContext() );
+                        progress = new ProgressDialog( ctx );
                         progress.setTitle("Loading");
                         progress.setMessage("Wait while loading...");
                         progress.setCancelable(false);
@@ -243,9 +259,11 @@ public class MainActivity extends AppCompatActivity {
                         new LongOperation().execute(
                                 Double.toString(tracker.getLatitude()),
                                 Double.toString(tracker.getLongitude()),
-                                "3",
                                 uName,
-                                phoneNum);
+                                phoneNum,
+                                "3",
+                                "-1",
+                                "1");
                     }})
                 .setNegativeButton("Fill Details", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int whichButton) {
@@ -288,11 +306,15 @@ public class MainActivity extends AppCompatActivity {
             json = new JSONObject();
             try
             {
-                json.put("lat",params[0]);
-                json.put("long", params[1]);
-                json.put("name", params[3]);
-                json.put("phone", params[4]);
-                json.put("etype", params[2]);
+                json.put("Lat",params[0]);
+                json.put("Long", params[1]);
+                json.put("Name", params[2]);
+                json.put("Phone", params[3]);
+                json.put("Type", Integer.parseInt(params[4]) );
+                json.put("Description", Integer.parseInt(params[5]) );
+                json.put("Number", Integer.parseInt(params[6]) );
+                json.put("Token", FirebaseInstanceId.getInstance().getToken());
+
             }catch (JSONException j)
 
             {

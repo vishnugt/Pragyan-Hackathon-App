@@ -120,7 +120,7 @@ public class SendEmergency extends AppCompatActivity {
             }
 
             try {
-                URL url = new URL("http://02a4ba0f.ngrok.io/user/emergency");
+                URL url = new URL("http://4e16c88d.ngrok.io/user/emergency");
                 HttpURLConnection connection = (HttpURLConnection) url.openConnection();
                 connection.setRequestMethod("POST");
                 connection.setDoOutput(true);
@@ -162,6 +162,7 @@ public class SendEmergency extends AppCompatActivity {
 
     public void aftercomplete()
     {
+        Log.d("outputresponse", outputresponse);
         progress.dismiss();
         Toast.makeText(this, "Please wait for furhter notification", Toast.LENGTH_SHORT).show();
         Intent intent = new Intent(this, MainActivity.class);
