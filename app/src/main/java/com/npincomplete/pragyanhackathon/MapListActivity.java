@@ -27,7 +27,7 @@ public abstract class MapListActivity extends ActionBarActivity {
         mRecyclerView = (RecyclerView) findViewById(R.id.my_recycler_view);
 
         // Determine the number of columns to display, based on screen width.
-        int rows = 10;
+        int rows = 1;
         GridLayoutManager layoutManager = new GridLayoutManager(this, rows, GridLayoutManager.VERTICAL, false);
         mRecyclerView.setLayoutManager(layoutManager);
 
