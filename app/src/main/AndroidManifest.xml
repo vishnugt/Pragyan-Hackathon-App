@@ -59,7 +59,11 @@
 
         <activity android:name=".A_ambActivity" />
         <activity android:name=".A_policeActivity" />
-        <activity android:name=".A_fireActivity"></activity>
+        <activity android:name=".A_fireActivity" />
+        <activity
+            android:name=".SendEmergency"
+            android:label="@string/app_name"
+            android:theme="@style/MyMaterialTheme"></activity>
     </application>
 
 </manifest>

@@ -2,6 +2,7 @@ package com.npincomplete.pragyanhackathon;
 
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.ConnectivityManager;
@@ -14,6 +15,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.text.TextUtils;
@@ -160,23 +162,93 @@ public class MainActivity extends AppCompatActivity {
 
     public void ambbtn(View view)
     {
-        Intent intent = new Intent(this, A_ambActivity.class);
-        startActivity(intent);
+
+        new AlertDialog.Builder(this)
+                .setTitle("Place Immediately?")
+                .setMessage("This will place a request! Use with caution! Please fill details if not in a hurry")
+                .setIcon(android.R.drawable.ic_dialog_info)
+                .setPositiveButton("Place Immediately", new DialogInterface.OnClickListener() {
+
+                    public void onClick(DialogInterface dialog, int whichButton) {
+                        progress = new ProgressDialog(getApplicationContext() );
+                        progress.setTitle("Loading");
+                        progress.setMessage("Wait while loading...");
+                        progress.setCancelable(false);
+                        progress.show();
+                        new LongOperation().execute(
+                                Double.toString(tracker.getLatitude()),
+                                Double.toString(tracker.getLongitude()),
+                                "1",
+                                uName,
+                                phoneNum);
+                    }})
+                .setNegativeButton("Fill Details", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int whichButton) {
+                        Intent intent = new Intent(getApplicationContext()  , A_ambActivity.class);
+                        startActivity(intent);
+                    }})
+                .show();
     }
 
 
 
     public void policebtn(View view)
     {
-        Intent intent = new Intent(this, A_policeActivity.class);
-        startActivity(intent);
+        new AlertDialog.Builder(this)
+                .setTitle("Place Immediately?")
+                .setMessage("This will place a request! Use with caution! Please fill details if not in a hurry")
+                .setIcon(android.R.drawable.ic_dialog_info)
+                .setPositiveButton("Place Immediately", new DialogInterface.OnClickListener() {
+
+                    public void onClick(DialogInterface dialog, int whichButton) {
+                        progress = new ProgressDialog(getApplicationContext() );
+                        progress.setTitle("Loading");
+                        progress.setMessage("Wait while loading...");
+                        progress.setCancelable(false);
+                        progress.show();
+                        new LongOperation().execute(
+                                Double.toString(tracker.getLatitude()),
+                                Double.toString(tracker.getLongitude()),
+                                "2",
+                                uName,
+                                phoneNum);
+                    }})
+                .setNegativeButton("Fill Details", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int whichButton) {
+                        Intent intent = new Intent(getApplicationContext()  , A_policeActivity.class);
+                        startActivity(intent);
+                    }})
+                .show();
     }
 
 
     public void firebtn(View view)
     {
-        Intent intent = new Intent(this, A_fireActivity.class);
-        startActivity(intent);
+        new AlertDialog.Builder(this)
+                .setTitle("Place Immediately?")
+                .setMessage("This will place a request! Use with caution! Please fill details if not in a hurry")
+                .setIcon(android.R.drawable.btn_dialog)
+                .setPositiveButton("Place Immediately", new DialogInterface.OnClickListener() {
+
+                    public void onClick(DialogInterface dialog, int whichButton) {
+                        progress = new ProgressDialog(getApplicationContext() );
+                        progress.setTitle("Loading");
+                        progress.setMessage("Wait while loading...");
+                        progress.setCancelable(false);
+                        progress.show();
+                        new LongOperation().execute(
+                                Double.toString(tracker.getLatitude()),
+                                Double.toString(tracker.getLongitude()),
+                                "3",
+                                uName,
+                                phoneNum);
+                    }})
+                .setNegativeButton("Fill Details", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int whichButton) {
+                        Intent intent = new Intent(getApplicationContext()  , A_fireActivity.class);
+                        startActivity(intent);
+                    }})
+                .show();
     }
 
     public void emergencyfunc(View view)
@@ -214,8 +286,9 @@ public class MainActivity extends AppCompatActivity {
             {
                 json.put("lat",params[0]);
                 json.put("long", params[1]);
-                json.put("name", params[2]);
-                json.put("phone", params[3]);
+                json.put("name", params[3]);
+                json.put("phone", params[4]);
+                json.put("etype", params[2]);
             }catch (JSONException j)
 
             {
