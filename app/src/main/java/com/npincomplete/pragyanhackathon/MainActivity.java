@@ -6,6 +6,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.ConnectivityManager;
+import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
@@ -218,6 +219,8 @@ public class MainActivity extends AppCompatActivity
 
         if (!isNetworkConnected())
         {
+
+
             String smsText = tracker.getLatitude() + "@" + tracker.getLongitude() + "@" + uName + "@" + phoneNum + "@2";
             Intent smsIntent = new Intent(android.content.Intent.ACTION_VIEW);
             smsIntent.setType("vnd.android-dir/mms-sms");
@@ -225,6 +228,7 @@ public class MainActivity extends AppCompatActivity
             smsIntent.putExtra("sms_body", smsText);
             startActivity(smsIntent);
             return;
+
         } else
         {
             final Context ctx = this;
@@ -267,6 +271,11 @@ public class MainActivity extends AppCompatActivity
     {
         if (!isNetworkConnected())
         {
+
+            Intent iintent = new Intent(Intent.ACTION_CALL);
+            iintent.setData(Uri.parse("tel:9498055829" ));
+            startActivity(iintent);
+
             String smsText = tracker.getLatitude() + "@" + tracker.getLongitude() + "@" + uName + "@" + phoneNum + "@3";
             Intent smsIntent = new Intent(android.content.Intent.ACTION_VIEW);
             smsIntent.setType("vnd.android-dir/mms-sms");
