@@ -3,6 +3,7 @@ package com.npincomplete.pragyanhackathon;
 
 import android.app.Service;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.IBinder;
 import android.util.Log;
 
@@ -31,7 +32,10 @@ public class FirebaseIDService extends FirebaseInstanceIdService {
      * @param token The new token.
      */
     private void sendRegistrationToServer(String token) {
-        // Add custom implementation, as needed.
+
+        SharedPreferences.Editor editor = getSharedPreferences("db", MODE_PRIVATE).edit();
+        editor.putString("fcm", token);
+        editor.commit();
 
     }
 }

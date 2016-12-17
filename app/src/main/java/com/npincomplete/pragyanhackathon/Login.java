@@ -49,12 +49,35 @@ public class Login extends AppCompatActivity {
     {
 
 
-        progress = new ProgressDialog(this);
+        /*progress = new ProgressDialog(this);
         progress.setTitle("Loading");
         progress.setMessage("Wait while loading...");
         progress.setCancelable(false);
         progress.show();
         new LongOperation2().execute(et1.getText().toString(), et2.getText().toString());
+       */
+
+        if(et1.getText().toString() == null || et2.getText().toString() == null)
+        {
+            Toast.makeText(this, "Please fill in the details!", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
+
+
+
+        SharedPreferences.Editor editor = getSharedPreferences("db", MODE_PRIVATE).edit();
+        editor.putString("isRegistered", "peace");
+        editor.putString("phoneNum", et2.getText().toString());
+        editor.putString("uName", et1.getText().toString());
+        editor.commit();
+
+        Intent intent = new Intent(this, MainActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(intent);
+        finish();
+
+
     }
 
 

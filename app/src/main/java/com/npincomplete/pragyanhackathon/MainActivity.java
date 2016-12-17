@@ -40,6 +40,9 @@ public class MainActivity extends AppCompatActivity
     private Toolbar toolbar;
     private TabLayout tabLayout;
     private ViewPager viewPager;
+
+
+
     public static boolean isLocationEnabled(Context context)
     {
         int locationMode = 0;
@@ -84,10 +87,20 @@ public class MainActivity extends AppCompatActivity
             this.finish();
         }
 
-        Log.d("fcmid", FirebaseInstanceId.getInstance().getToken());
+        try
+        {
+            FirebaseInstanceId.getInstance().deleteInstanceId();
+            Log.d("holy", "possible");
+        }
+        catch(IOException e)
+        {
+            Log.d("sad", "not possible");
+        }
+
+//        Log.d("fcmid", FirebaseInstanceId.getInstance().getToken());
         SharedPreferences prefs = getSharedPreferences("db", MODE_PRIVATE);
         String isRegistered = prefs.getString("isRegistered", null);
-        if (isRegistered == "l")
+        if (isRegistered == null)
         {
             Intent intent = new Intent(this, Login.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);

@@ -3,6 +3,7 @@ package com.npincomplete.pragyanhackathon;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -43,6 +44,7 @@ public class SendEmergency extends AppCompatActivity {
 
     String outputresponse;
     JSONObject json;
+    String fcm;
 
 
     @Override
@@ -54,6 +56,8 @@ public class SendEmergency extends AppCompatActivity {
         auth_token = prefs.getString("isRegistered", null);
         phoneNum = prefs.getString("phoneNum", null);
         uName = prefs.getString("uName", null);
+        fcm = prefs.getString("fcm", "fcm");
+
 
         Intent intent = getIntent();
         etype = intent.getIntExtra("etype", 0);
@@ -70,7 +74,6 @@ public class SendEmergency extends AppCompatActivity {
     public void sendemer(View view)
     {
         numOfPeople = Integer.parseInt(editText.getText().toString());
-
         GPSTracker tracker = new GPSTracker(this);
         progress = new ProgressDialog(this);
         progress.setTitle("Loading");
@@ -109,7 +112,7 @@ public class SendEmergency extends AppCompatActivity {
                 json.put("Type", Integer.parseInt(params[4]) );
                 json.put("Description", Integer.parseInt(params[5]) );
                 json.put("Number", Integer.parseInt(params[6]) );
-                json.put("Token", FirebaseInstanceId.getInstance().getToken());
+                json.put("Token", fcm);
 
                 Log.d("jsonoutput", json.toString());
 
@@ -165,8 +168,14 @@ public class SendEmergency extends AppCompatActivity {
         Log.d("outputresponse", outputresponse);
         progress.dismiss();
         Toast.makeText(this, "Please wait for furhter notification", Toast.LENGTH_SHORT).show();
-        Intent intent = new Intent(this, MainActivity.class);
+
+        Intent intent = new Intent(Intent.ACTION_CALL);
+        intent.setData(Uri.parse("tel:9498055829" ));
         startActivity(intent);
+
+        //Intent intent = new Intent(this, MainActivity.class);
+        //startActivity(intent);
+
 
     }
 
