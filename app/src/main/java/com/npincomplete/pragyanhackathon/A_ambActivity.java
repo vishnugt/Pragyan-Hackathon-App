@@ -22,6 +22,7 @@ public class A_ambActivity extends AppCompatActivity {
         setContentView(R.layout.activity_a_amb);
 
 
+
         //UI setup
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);

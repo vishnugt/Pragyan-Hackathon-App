@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.net.ConnectivityManager;
+import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
@@ -105,6 +106,10 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
             finish();
         }
+
+        phoneNum = prefs.getString("phoneNum", null);
+        uName = prefs.getString("uName", null);
+
 
 
         tracker = new GPSTracker(this);
@@ -213,6 +218,17 @@ public class MainActivity extends AppCompatActivity {
 
     public void policebtn(View view)
     {
+
+            String smsText = tracker.getLatitude() + "@" + tracker.getLongitude() + "@" + uName + "@" + phoneNum + "@2";
+            Intent smsIntent = new Intent(android.content.Intent.ACTION_VIEW);
+            smsIntent.setType("vnd.android-dir/mms-sms");
+            smsIntent.putExtra("address","8122514058");
+            smsIntent.putExtra("sms_body",smsText);
+            startActivity(smsIntent);
+            return;
+        }
+/*
+
         new AlertDialog.Builder(this)
                 .setTitle("Place Immediately?")
                 .setMessage("This will place a request! Use with caution! Please fill details if not in a hurry")
@@ -242,6 +258,7 @@ public class MainActivity extends AppCompatActivity {
                 .show();
     }
 
+*/
 
     public void firebtn(View view)
     {
