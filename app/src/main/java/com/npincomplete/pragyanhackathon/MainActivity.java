@@ -79,6 +79,17 @@ public class MainActivity extends AppCompatActivity
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
+
+        //6 teams got shortlisted for the final presentation
+        //Internet was an issue
+        //app crashed once :(
+        //apart from it the presentation went okay-ish to good
+        //but we didn't get to explain all the features
+        //now the 4th team is presenting, as of now almost all teams are noob
+        //we are expecting a prize
+        //will push once more if we get a prize
+
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         if (!isLocationEnabled(this))
