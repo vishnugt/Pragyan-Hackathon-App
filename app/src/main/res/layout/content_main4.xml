@@ -29,14 +29,19 @@
         android:layout_height="wrap_content"
         android:inputType="number"
         android:ems="10"
-        android:id="@+id/editText" />
+        android:id="@+id/editText">
+        <requestFocus />
+        </EditText>
 
     <Button
         android:text="Place Request"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button2"
-        android:onClick="sendemer"/>
+        android:onClick="sendemer"
+        android:textColor="@color/emergency"
+        android:background="@color/background"
+        />
 
 
 </LinearLayout>

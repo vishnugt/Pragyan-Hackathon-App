@@ -63,11 +63,14 @@ public class SendEmergency extends AppCompatActivity {
         etype = intent.getIntExtra("etype", 0);
         desc = intent.getIntExtra("desc", -1);
 
+
+
         editText = (EditText)findViewById(R.id.editText);
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
+        editText.requestFocus();
 
     }
 
