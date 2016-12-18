@@ -17,9 +17,23 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
     @Override
     public void onMessageReceived(RemoteMessage remoteMessage) {
         super.onMessageReceived(remoteMessage);
-        sendNotification(remoteMessage.getNotification().getBody());
-        Log.d(TAG, "From: " + remoteMessage.getFrom());
-        Log.d(TAG, "Notification Message Body: " + remoteMessage.getNotification().getBody());
+        //sendNotification(remoteMessage.getData().get("Lat"));
+        //Log.d(TAG, "From: " + remoteMessage.getFrom());
+        //Log.d(TAG, "Notification Message Body: " + remoteMessage.getNotification().getBody());
+
+        String temp = "Your Ambulance will arrive in " + remoteMessage.getData().get("Time") + " minutes.  Phone Number of Driver (" + (remoteMessage.getData().get("Name")) + ") is " + remoteMessage.getData().get("Phone");
+        sendNotification(temp);
+
+        Intent intent = new Intent(this, hospital_activity.class);
+        intent.putExtra("Lat", remoteMessage.getData().get("Lat"));
+        intent.putExtra("Long", remoteMessage.getData().get("Long"));
+        intent.putExtra("Time", remoteMessage.getData().get("Time"));
+        intent.putExtra("Vehicle_no", remoteMessage.getData().get("Vehicle_no"));
+        intent.putExtra("Phone", remoteMessage.getData().get("Phone") );
+        intent.putExtra("Name", remoteMessage.getData().get("Name"));
+        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(intent);
+
     }
 
 
@@ -32,9 +46,9 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
         NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder(this)
                 .setSmallIcon(R.drawable.ic_icon1)
                 .setContentTitle("Chiron")
-                .setContentText(messageBody)
                 .setAutoCancel(true)
-                .setContentIntent(pendingIntent);
+                .setContentIntent(pendingIntent)
+                .setStyle(new NotificationCompat.BigTextStyle().bigText(messageBody));
 
         NotificationManager notificationManager =
                 (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
