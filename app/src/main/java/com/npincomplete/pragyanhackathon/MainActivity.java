@@ -89,6 +89,8 @@ public class MainActivity extends AppCompatActivity
         //we are expecting a prize
         //will push once more if we get a prize
 
+        //and yaay! we got 3rd prize, 40k, not bad right!?
+
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
@@ -112,6 +114,7 @@ public class MainActivity extends AppCompatActivity
 //        Log.d("fcmid", FirebaseInstanceId.getInstance().getToken());
         SharedPreferences prefs = getSharedPreferences("db", MODE_PRIVATE);
         String isRegistered = prefs.getString("isRegistered", null);
+
         if (isRegistered == null)
         {
             Intent intent = new Intent(this, Login.class);
@@ -119,12 +122,14 @@ public class MainActivity extends AppCompatActivity
             startActivity(intent);
             finish();
         }
+
         phoneNum = prefs.getString("phoneNum", null);
         uName = prefs.getString("uName", null);
         tracker = new GPSTracker(this);
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         viewPager = (ViewPager) findViewById(R.id.viewpager);
         setupViewPager(viewPager);
         tabLayout = (TabLayout) findViewById(R.id.tabs);
@@ -132,6 +137,7 @@ public class MainActivity extends AppCompatActivity
         tabLayout.getTabAt(0).setIcon(tabIcons[0]);
         tabLayout.getTabAt(1).setIcon(tabIcons[1]);
         tabLayout.getTabAt(2).setIcon(tabIcons[2]);
+
     }
     private void setupViewPager(ViewPager viewPager)
     {
@@ -487,7 +493,7 @@ public class MainActivity extends AppCompatActivity
             }
             try
             {
-                URL url = new URL("http://4e16c88d.ngrok.io/user/emergency");
+                URL url = new URL("http://52.66.134.228:4000/user/emergency");
                 HttpURLConnection connection = (HttpURLConnection) url.openConnection();
                 connection.setRequestMethod("POST");
                 connection.setDoOutput(true);
@@ -523,9 +529,13 @@ public class MainActivity extends AppCompatActivity
     GPSTracker tracker;
     public void aftercomplete()
     {
-        Toast.makeText(this, outputresponse, Toast.LENGTH_SHORT).show();
+
+        if(outputresponse != null)
+            Toast.makeText(this, outputresponse, Toast.LENGTH_SHORT).show();
+            //Intent intent = new Intent(this, hospital_activity.class);
+        else
+            Toast.makeText(this, "Server is offline", Toast.LENGTH_SHORT).show();
         progress.dismiss();
-        //Intent intent = new Intent(this, hospital_activity.class);
         //intent.putExtra("outputresponse", outputresponse);
         //startActivity(intent);
     }

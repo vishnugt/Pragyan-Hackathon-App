@@ -1,0 +1,3541 @@
+﻿1
+00:00:01,584 --> 00:00:05,517
+<i>In 2166 an immortal
+tyrant named Vandal Savage</i>
+
+2
+00:00:05,519 --> 00:00:07,686
+<i>conquered the world and
+murdered my wife and child.</i>
+
+3
+00:00:07,688 --> 00:00:09,521
+<i>I have assembled an elite team</i>
+
+4
+00:00:09,523 --> 00:00:12,091
+<i>to hunt him throughout time
+and stop his rise to power.</i>
+
+5
+00:00:12,093 --> 00:00:14,860
+<i>Unfortunately, my plan
+is opposed by the body</i>
+
+6
+00:00:14,862 --> 00:00:18,163
+<i>I'd sworn my allegiance
+to, the Time Masters.</i>
+
+7
+00:00:18,165 --> 00:00:20,466
+<i>In the future, my friends
+may not be heroes,</i>
+
+8
+00:00:20,468 --> 00:00:22,301
+<i>but if we succeed,</i>
+
+9
+00:00:22,303 --> 00:00:25,337
+<i>they will be remembered as legends.</i>
+
+10
+00:00:27,441 --> 00:00:30,376
+<i>Previously on "Legends of Tomorrow"... </i>
+
+11
+00:00:30,378 --> 00:00:32,611
+Two years. You left us stranded in 1958.
+
+12
+00:00:32,613 --> 00:00:34,747
+<i>I was happy with the
+life we built together,</i>
+
+13
+00:00:34,749 --> 00:00:36,582
+the one I thought would be our future.
+
+14
+00:00:36,604 --> 00:00:38,037
+<i>Chronos attacked us.</i>
+
+15
+00:00:38,039 --> 00:00:39,612
+<i>He sabotaged the ship and took Snart.</i>
+
+16
+00:00:39,774 --> 00:00:42,983
+If you're gonna kill, you could
+at least tell me what's going on.
+
+17
+00:00:44,605 --> 00:00:46,205
+The Time Masters,
+
+18
+00:00:46,207 --> 00:00:48,474
+they took me to a place
+called the Vanishing Point.
+
+19
+00:00:48,476 --> 00:00:51,711
+I've spent lifetimes training
+by them, being reborn.
+
+20
+00:00:51,713 --> 00:00:53,813
+Don't kill him.
+
+21
+00:00:53,815 --> 00:00:55,681
+<i>The Time Masters took one of our own</i>
+
+22
+00:00:55,683 --> 00:00:57,316
+<i>and turned him against us.</i>
+
+23
+00:00:57,318 --> 00:00:59,618
+I say we undo their handiwork.
+
+24
+00:01:05,706 --> 00:01:09,208
+I trust that you're comfortable, Mr. Rory.
+
+25
+00:01:12,713 --> 00:01:14,713
+Or do you answer to Chronos these days?
+
+26
+00:01:14,715 --> 00:01:16,749
+I don't take orders from you.
+
+27
+00:01:16,751 --> 00:01:18,651
+I can't believe I ever did.
+
+28
+00:01:18,653 --> 00:01:21,320
+Well, that's debatable.
+
+29
+00:01:23,758 --> 00:01:26,859
+I'm calling on you for two reasons.
+
+30
+00:01:26,861 --> 00:01:30,396
+First, we could use your help.
+
+31
+00:01:30,398 --> 00:01:32,331
+What's the second reason?
+
+32
+00:01:32,333 --> 00:01:35,034
+We're headed to 2147 to engage Savage.
+
+33
+00:01:35,036 --> 00:01:38,437
+Is that the second reason or the first?
+
+34
+00:01:38,439 --> 00:01:41,240
+Ah, forget it.
+
+35
+00:01:41,242 --> 00:01:43,943
+I owe you an apology, Mr. Rory.
+
+36
+00:01:43,945 --> 00:01:45,411
+I failed you.
+
+37
+00:01:45,413 --> 00:01:47,112
+I brought you along on this mission
+
+38
+00:01:47,114 --> 00:01:50,249
+under false pretenses, in
+denial of your true nature.
+
+39
+00:01:50,251 --> 00:01:53,152
+And when that nature took its course,
+
+40
+00:01:53,154 --> 00:01:57,857
+I asked Mr. Snart to...
+
+41
+00:01:57,859 --> 00:02:01,660
+deal with you.
+
+42
+00:02:01,662 --> 00:02:04,029
+My point being,
+
+43
+00:02:04,031 --> 00:02:06,232
+your quarrel should be
+with me and not with him.
+
+44
+00:02:06,234 --> 00:02:10,069
+Well, if it makes you feel any better,
+
+45
+00:02:10,071 --> 00:02:12,571
+I want to kill both of you.
+
+46
+00:02:14,842 --> 00:02:18,978
+<i>Captain, we've arrived at 2147.</i>
+
+47
+00:02:18,980 --> 00:02:20,913
+Thank you, Gideon.
+
+48
+00:02:20,915 --> 00:02:24,917
+Set a course for the Kasnian Conglomerate.
+
+49
+00:02:24,919 --> 00:02:28,020
+150 years in the future and
+people are still wearing wool?
+
+50
+00:02:28,022 --> 00:02:30,089
+- Man, I hate wool.
+- Be grateful, Mr. Jackson.
+
+51
+00:02:30,091 --> 00:02:32,091
+Those living outside
+the Kasnian Conglomerate
+
+52
+00:02:32,093 --> 00:02:33,459
+are dressed in rags.
+
+53
+00:02:33,461 --> 00:02:34,793
+Conglomerate?
+
+54
+00:02:34,795 --> 00:02:36,262
+Yes, in the year 2080,
+
+55
+00:02:36,264 --> 00:02:38,931
+government began to
+give way to corporations.
+
+56
+00:02:38,933 --> 00:02:40,399
+More like 2008.
+
+57
+00:02:40,401 --> 00:02:42,434
+According to Gideon, in two hours time,
+
+58
+00:02:42,436 --> 00:02:44,870
+our favorite immortal psychopath
+is scheduled to attend a meeting
+
+59
+00:02:44,872 --> 00:02:46,772
+of the Conglomerate's share holders.
+
+60
+00:02:46,774 --> 00:02:48,340
+Ooh, sounds exciting.
+
+61
+00:02:48,342 --> 00:02:51,277
+You think Savage takes over
+the world by trading stocks?
+
+62
+00:02:51,279 --> 00:02:52,912
+What we do know is, in 20 years time,
+
+63
+00:02:52,914 --> 00:02:54,947
+Kasnia is the foothold from which Savage
+
+64
+00:02:54,949 --> 00:02:56,548
+takes over the world, so we hardly want
+
+65
+00:02:56,550 --> 00:02:58,684
+to take him on there,
+but if we can figure out
+
+66
+00:02:58,686 --> 00:03:03,122
+how his actions here
+lead to his rise to power,
+
+67
+00:03:03,124 --> 00:03:04,456
+then we won't need to.
+
+68
+00:03:04,458 --> 00:03:06,258
+Copy that, Captain,
+
+69
+00:03:06,260 --> 00:03:08,127
+but if we're gonna be
+checking out the future...
+
+70
+00:03:08,129 --> 00:03:11,230
+We should probably invite the nerd twins.
+
+71
+00:03:11,232 --> 00:03:12,731
+You know, I can already hear
+
+72
+00:03:12,733 --> 00:03:14,700
+what Stan's gonna say about 2147.
+
+73
+00:03:14,702 --> 00:03:16,235
+The future, it's...
+
+74
+00:03:16,237 --> 00:03:18,504
+- Fascinating.
+- Astonishing.
+
+75
+00:03:18,506 --> 00:03:21,440
+Well, it was a 50-50 chance
+which one he'd choose.
+
+76
+00:03:21,442 --> 00:03:24,643
+- Actually I was going to say, "Remarkable."
+- Isn't it?
+
+77
+00:03:24,645 --> 00:03:28,280
+2147 was considered the world's zenith.
+
+78
+00:03:28,282 --> 00:03:29,982
+All of these people have five good years
+
+79
+00:03:29,984 --> 00:03:31,016
+to look forward to.
+
+80
+00:03:31,018 --> 00:03:32,484
+Before what?
+
+81
+00:03:32,486 --> 00:03:33,752
+Before a ruthless dictator
+
+82
+00:03:33,754 --> 00:03:35,554
+named Per Degaton comes to power,
+
+83
+00:03:35,556 --> 00:03:39,058
+releases the Armageddon Virus,
+and most of them end up dead.
+
+84
+00:03:39,060 --> 00:03:41,060
+Well, that's depressing.
+
+85
+00:03:44,598 --> 00:03:46,665
+Whoa.
+
+86
+00:03:46,667 --> 00:03:50,402
+Is that my suit? That's my suit.
+
+87
+00:03:50,404 --> 00:03:53,205
+[woman screaming and people shouting]
+
+88
+00:03:53,207 --> 00:03:54,940
+- [laser zapping]
+- Aah!
+
+89
+00:03:54,942 --> 00:03:57,910
+<i>[suspenseful music]</i>
+
+90
+00:03:57,912 --> 00:04:01,447
+You have been identified
+as violating Ordinance 12.
+
+91
+00:04:01,449 --> 00:04:03,816
+That is how Per Degaton's father Tor
+
+92
+00:04:03,818 --> 00:04:07,286
+maintains order in Kasnia.
+
+93
+00:04:07,288 --> 00:04:09,455
+Doesn't look like progress to me.
+
+94
+00:04:09,457 --> 00:04:11,523
+Speaking of progress, we need
+to get a better lay of the land.
+
+95
+00:04:11,525 --> 00:04:12,758
+And I need to get a better look at how
+
+96
+00:04:12,760 --> 00:04:14,460
+they made my suit autonomous.
+
+97
+00:04:14,462 --> 00:04:16,462
+Well, why don't you take
+Martin and Jax with you?
+
+98
+00:04:16,464 --> 00:04:20,099
+Ms. Lance, Mr. Snart, and I
+will work on locating Savage.
+
+99
+00:04:21,836 --> 00:04:23,736
+<i>Tor Degaton holds daily meetings</i>
+
+100
+00:04:23,738 --> 00:04:25,104
+<i>with his board of directors.</i>
+
+101
+00:04:25,106 --> 00:04:26,705
+And it's open to the public?
+
+102
+00:04:26,707 --> 00:04:27,906
+'Course not.
+
+103
+00:04:27,908 --> 00:04:30,009
+Just Kasnia's shareholders.
+
+104
+00:04:30,011 --> 00:04:32,745
+I hate to break it to you,
+but we're not shareholders.
+
+105
+00:04:32,747 --> 00:04:36,915
+I'm more of a hard asset man, myself.
+
+106
+00:04:36,917 --> 00:04:39,852
+<i>[tense music]</i>
+
+107
+00:04:47,995 --> 00:04:49,661
+You're clear to attend.
+
+108
+00:04:49,663 --> 00:04:51,263
+They'll have to wait outside.
+
+109
+00:04:51,265 --> 00:04:52,564
+Oh, no, this is my accountant,
+
+110
+00:04:52,566 --> 00:04:55,801
+and she is my personal
+assist... bodyguard.
+
+111
+00:04:55,803 --> 00:04:58,303
+Stockholders only.
+
+112
+00:04:58,305 --> 00:04:59,638
+[clears throat]
+
+113
+00:05:05,312 --> 00:05:06,979
+We've been through this.
+
+114
+00:05:06,981 --> 00:05:09,248
+I won't put the resolution to a vote.
+
+115
+00:05:09,250 --> 00:05:11,083
+Sir, with greatest respect,
+
+116
+00:05:11,085 --> 00:05:13,719
+the situation outside
+the Conglomerate's borders
+
+117
+00:05:13,721 --> 00:05:15,654
+is becoming untenable.
+
+118
+00:05:15,656 --> 00:05:18,223
+The food riots, climate change.
+
+119
+00:05:18,225 --> 00:05:20,392
+I am well aware that the
+world outside our walls
+
+120
+00:05:20,394 --> 00:05:22,995
+is descending into chaos,
+
+121
+00:05:22,997 --> 00:05:25,464
+but causing chaos cannot
+be a proper response
+
+122
+00:05:25,466 --> 00:05:28,067
+It is not chaos.
+
+123
+00:05:28,069 --> 00:05:29,701
+It is logic.
+
+124
+00:05:29,703 --> 00:05:32,271
+The world's population is unsustainable
+
+125
+00:05:32,273 --> 00:05:34,773
+at current levels.
+
+126
+00:05:34,775 --> 00:05:36,475
+The herd must be thinned.
+
+127
+00:05:36,477 --> 00:05:39,078
+So you've argued, Mr. Savage,
+
+128
+00:05:39,080 --> 00:05:42,314
+but no matter how many times
+you choose to press your point,
+
+129
+00:05:42,316 --> 00:05:45,684
+my decision shall stand.
+
+130
+00:06:14,381 --> 00:06:16,949
+Vandal.
+
+131
+00:06:16,951 --> 00:06:18,851
+Oh, my boy.
+
+132
+00:06:18,853 --> 00:06:20,853
+My father would have you
+killed for calling me that.
+
+133
+00:06:20,855 --> 00:06:23,655
+Oh, I wouldn't want to chance execution.
+
+134
+00:06:23,657 --> 00:06:26,558
+Per Degaton.
+
+135
+00:06:26,560 --> 00:06:28,293
+So how did the meeting go?
+
+136
+00:06:28,295 --> 00:06:31,396
+Well, your father was being
+his usual intractable self.
+
+137
+00:06:31,398 --> 00:06:34,266
+The problem is, my young student,
+
+138
+00:06:34,268 --> 00:06:36,435
+to run a corporation is not the same
+
+139
+00:06:36,437 --> 00:06:39,171
+as ruling a country.
+
+140
+00:06:39,173 --> 00:06:40,906
+If you're implying that my father
+
+141
+00:06:40,908 --> 00:06:42,574
+doesn't have what it takes...
+
+142
+00:06:42,576 --> 00:06:46,078
+Yes, he would have killed
+me for that as well.
+
+143
+00:06:46,080 --> 00:06:51,216
+Well, I suppose I just have
+to live dangerously then.
+
+144
+00:06:51,218 --> 00:06:54,153
+So how are your studies progressing?
+
+145
+00:06:54,155 --> 00:06:57,122
+<i>♪ ♪</i>
+
+146
+00:06:57,124 --> 00:06:58,957
+<i>He's a teacher.</i>
+
+147
+00:06:58,959 --> 00:07:01,226
+Tutor, it would seem, to
+young Per Degaton himself.
+
+148
+00:07:01,228 --> 00:07:03,896
+You say that like it's
+supposed to mean something.
+
+149
+00:07:03,898 --> 00:07:06,031
+After the death of his
+father in five year's time,
+
+150
+00:07:06,033 --> 00:07:08,100
+Per Degaton unleashes
+the Armageddon Virus,
+
+151
+00:07:08,102 --> 00:07:10,002
+which decimates the world's population,
+
+152
+00:07:10,004 --> 00:07:12,437
+<i>leaving it ripe for conquest.</i>
+
+153
+00:07:12,439 --> 00:07:15,374
+[both grunting]
+
+154
+00:07:15,376 --> 00:07:17,709
+Per Degaton primes the
+world for dictatorship,
+
+155
+00:07:17,711 --> 00:07:19,778
+and then when the time is right...
+
+156
+00:07:22,449 --> 00:07:26,385
+<i>Savage snatches that
+power away from him.</i>
+
+157
+00:07:26,387 --> 00:07:28,554
+<i>By killing Per Degaton.</i>
+
+158
+00:07:28,556 --> 00:07:30,189
+<i>Indeed.</i>
+
+159
+00:07:30,191 --> 00:07:31,757
+Okay, so we don't have what we need
+
+160
+00:07:31,759 --> 00:07:33,725
+to take out Savage, but
+maybe now we can figure out
+
+161
+00:07:33,727 --> 00:07:35,227
+a way to stop his rise to power.
+
+162
+00:07:35,229 --> 00:07:37,529
+By depriving him of his
+springboard, Per Degaton.
+
+163
+00:07:37,531 --> 00:07:41,099
+Okay, how do we do that?
+
+164
+00:07:41,101 --> 00:07:42,601
+It's quite simple, really.
+
+165
+00:07:42,603 --> 00:07:46,738
+We kill the little bastard ourselves.
+
+166
+00:07:46,740 --> 00:07:49,675
+<i>[exciting music]</i>
+
+167
+00:07:50,500 --> 00:07:55,000
+- Synced and corrected by chamallow -
+- www.addic7ed.com -
+
+168
+00:07:57,329 --> 00:08:01,001
+To be clear, we're talking
+about murdering a child...
+
+169
+00:08:01,011 --> 00:08:03,177
+Who hasn't done anything to anyone...
+
+170
+00:08:03,179 --> 00:08:05,880
+Yet, so why don't we pick him off now,
+
+171
+00:08:05,882 --> 00:08:06,915
+while the picking's easy?
+
+172
+00:08:07,017 --> 00:08:08,750
+There's got to be a better way.
+
+173
+00:08:08,752 --> 00:08:11,052
+How do we even know that
+this Per Degaton kid's path
+
+174
+00:08:11,054 --> 00:08:13,788
+to becoming a world-ruling
+dictator is inevitable?
+
+175
+00:08:13,790 --> 00:08:16,257
+Because in the future that I'm from,
+
+176
+00:08:16,259 --> 00:08:18,259
+children learn about Per
+Degaton in the same way
+
+177
+00:08:18,261 --> 00:08:21,029
+that children in your time
+learn about Adolf Hitler.
+
+178
+00:08:21,031 --> 00:08:23,465
+What about addressing the
+larger societal problems
+
+179
+00:08:23,467 --> 00:08:25,600
+that would allow such a
+despot's rise to power?
+
+180
+00:08:25,602 --> 00:08:27,302
+We already know what pushes this punk
+
+181
+00:08:27,304 --> 00:08:29,671
+to the dark side: Savage.
+
+182
+00:08:29,673 --> 00:08:31,172
+Look, it's not the kid's fault
+
+183
+00:08:31,174 --> 00:08:32,874
+he's got an immortal
+psychopath as his tutor.
+
+184
+00:08:32,876 --> 00:08:34,809
+If we don't kill the kid
+now, Savage will as soon
+
+185
+00:08:34,811 --> 00:08:38,446
+as he's done using him
+to take over the world.
+
+186
+00:08:38,448 --> 00:08:40,014
+If he doesn't build him
+into the greatest tyrant
+
+187
+00:08:40,016 --> 00:08:41,349
+the world has ever known,
+
+188
+00:08:41,351 --> 00:08:43,151
+Savage can't become the last tyrant
+
+189
+00:08:43,153 --> 00:08:45,320
+the world will ever know.
+
+190
+00:08:45,322 --> 00:08:47,789
+Murdering a child in cold blood
+
+191
+00:08:47,791 --> 00:08:49,891
+just like Savage murdered your own son.
+
+192
+00:08:49,893 --> 00:08:51,292
+What's the use in saving the world
+
+193
+00:08:51,294 --> 00:08:54,229
+if we stoop to his methods to do so?
+
+194
+00:08:57,167 --> 00:08:58,733
+I'm with Professor Stein.
+
+195
+00:08:58,735 --> 00:09:00,468
+Okay, fine.
+
+196
+00:09:00,470 --> 00:09:03,071
+If y'all don't have the
+guts to kill this kid...
+
+197
+00:09:03,073 --> 00:09:04,906
+Then removing him from the timeline
+
+198
+00:09:04,908 --> 00:09:06,941
+might be the next best thing.
+
+199
+00:09:06,943 --> 00:09:08,676
+Great, we've gone from infanticide
+
+200
+00:09:08,678 --> 00:09:11,379
+to child abduction. Progress.
+
+201
+00:09:11,381 --> 00:09:13,248
+First we need to devise how to abduct him
+
+202
+00:09:13,250 --> 00:09:15,717
+from underneath the noses of
+his father's private guard.
+
+203
+00:09:15,719 --> 00:09:18,019
+And don't forget the army of Atom robots.
+
+204
+00:09:18,021 --> 00:09:20,355
+We're going to need an accomplished thief.
+
+205
+00:09:20,357 --> 00:09:22,090
+Well, while you're kidnapping baby Hitler,
+
+206
+00:09:22,092 --> 00:09:24,759
+Professor Stein and I will
+sabotage the robot army.
+
+207
+00:09:24,761 --> 00:09:26,227
+I call Team Robot Army.
+
+208
+00:09:26,229 --> 00:09:27,862
+Isn't that a waste of time?
+
+209
+00:09:27,864 --> 00:09:29,430
+Not for the Kasnian citizens
+
+210
+00:09:29,432 --> 00:09:31,166
+who are tormented by my technology.
+
+211
+00:09:31,168 --> 00:09:33,468
+That technology does lead
+to Savage's rise to power.
+
+212
+00:09:33,470 --> 00:09:35,203
+Good backup plan.
+
+213
+00:09:35,205 --> 00:09:37,539
+Fine, Team Kidnapping.
+
+214
+00:09:37,541 --> 00:09:39,507
+Go team.
+
+215
+00:09:39,509 --> 00:09:42,410
+<i>[rousing music]</i>
+
+216
+00:09:42,412 --> 00:09:44,579
+<i>♪ ♪</i>
+
+217
+00:09:44,581 --> 00:09:46,014
+Hey, you okay?
+
+218
+00:09:46,016 --> 00:09:49,551
+Yeah, yeah, I was just... thinking.
+
+219
+00:09:49,553 --> 00:09:52,287
+Ah, I think I understand.
+
+220
+00:09:52,289 --> 00:09:53,321
+You do?
+
+221
+00:09:53,323 --> 00:09:54,722
+Yeah, Savage.
+
+222
+00:09:54,724 --> 00:09:57,892
+He's so close you can sense him, right?
+
+223
+00:09:57,894 --> 00:10:00,328
+Yeah.
+
+224
+00:10:00,330 --> 00:10:02,497
+Do you want to talk about it?
+
+225
+00:10:02,499 --> 00:10:05,166
+No. Don't worry about me.
+
+226
+00:10:05,168 --> 00:10:06,167
+I'll be fine.
+
+227
+00:10:06,169 --> 00:10:09,304
+Okay.
+
+228
+00:10:12,475 --> 00:10:13,708
+<i>Honey?</i>
+
+229
+00:10:13,710 --> 00:10:16,544
+[upbeat jazzy music]
+
+230
+00:10:16,546 --> 00:10:19,414
+<i>Honey?</i>
+
+231
+00:10:19,416 --> 00:10:20,381
+I'm home.
+
+232
+00:10:20,383 --> 00:10:21,549
+[door closes]
+
+233
+00:10:29,659 --> 00:10:30,792
+What's the matter?
+
+234
+00:10:30,794 --> 00:10:32,193
+Nothing.
+
+235
+00:10:32,195 --> 00:10:34,662
+Can I fix you a drink?
+
+236
+00:10:34,664 --> 00:10:36,364
+That would be lovely.
+
+237
+00:10:36,366 --> 00:10:38,466
+And while you do, you can
+tell me what's on your mind.
+
+238
+00:10:38,468 --> 00:10:41,436
+Really, it's nothing.
+
+239
+00:10:41,438 --> 00:10:43,571
+You are a terrible liar.
+
+240
+00:10:43,573 --> 00:10:45,340
+Yes, but...
+
+241
+00:10:45,342 --> 00:10:47,408
+you love me anyway.
+
+242
+00:10:47,410 --> 00:10:52,113
+Beyond anything I can describe.
+
+243
+00:10:52,115 --> 00:10:55,583
+And because I love you, I know
+when something's bothering you.
+
+244
+00:10:55,585 --> 00:10:58,886
+It's... it's just a feeling.
+
+245
+00:10:58,888 --> 00:11:00,722
+Of him?
+
+246
+00:11:00,724 --> 00:11:03,791
+It's hard to tell.
+
+247
+00:11:03,793 --> 00:11:05,793
+I haven't sensed Savage's presence,
+
+248
+00:11:05,795 --> 00:11:08,830
+but you do... or you think you do.
+
+249
+00:11:08,832 --> 00:11:11,666
+I think it's time for us to go.
+
+250
+00:11:11,668 --> 00:11:13,534
+I have some vacation time coming up.
+
+251
+00:11:13,536 --> 00:11:15,370
+We can drive to Coast City
+and do some sightseeing.
+
+252
+00:11:15,372 --> 00:11:17,005
+A vacation isn't going to fix this.
+
+253
+00:11:17,007 --> 00:11:18,840
+I know.
+
+254
+00:11:18,842 --> 00:11:21,209
+Savage isn't just gonna forget
+about us because we went away.
+
+255
+00:11:21,211 --> 00:11:22,443
+I know.
+
+256
+00:11:22,445 --> 00:11:23,478
+And he's not gonna stop until...
+
+257
+00:11:23,480 --> 00:11:26,414
+Mommy?
+
+258
+00:11:26,416 --> 00:11:27,782
+I can't sleep.
+
+259
+00:11:27,784 --> 00:11:28,916
+Hey, Slugger.
+
+260
+00:11:28,918 --> 00:11:30,752
+- Daddy.
+- Come here.
+
+261
+00:11:30,754 --> 00:11:31,953
+[grunts]
+
+262
+00:11:31,955 --> 00:11:34,856
+<i>[somber music]</i>
+
+263
+00:11:34,858 --> 00:11:37,325
+<i>♪ ♪</i>
+
+264
+00:11:37,327 --> 00:11:39,861
+What's wrong?
+
+265
+00:11:39,863 --> 00:11:43,131
+Nothing. Nothing.
+
+266
+00:11:43,133 --> 00:11:47,068
+I just love you so much.
+
+267
+00:11:47,070 --> 00:11:50,004
+I love both of you so much.
+
+268
+00:11:50,006 --> 00:11:51,706
+[gasps]
+
+269
+00:11:51,708 --> 00:11:54,942
+<i>♪ ♪</i>
+
+270
+00:11:54,944 --> 00:11:56,477
+<i>[tense music]</i>
+
+271
+00:11:56,479 --> 00:11:59,247
+<i>No litter. No street crime. No smog.</i>
+
+272
+00:11:59,249 --> 00:12:01,182
+How soon can we leave?
+
+273
+00:12:01,184 --> 00:12:03,084
+<i>Keep your eyes peeled.</i>
+
+274
+00:12:03,086 --> 00:12:04,852
+According to Gideon, Per Degaton
+
+275
+00:12:04,854 --> 00:12:06,254
+should be passing through any minute
+
+276
+00:12:06,256 --> 00:12:08,289
+on his way to gymnastics class.
+
+277
+00:12:08,291 --> 00:12:12,894
+Are you telling me future Hitler
+is enrolled in a gymnastics class?
+
+278
+00:12:20,437 --> 00:12:22,637
+Yes.
+
+279
+00:12:28,211 --> 00:12:31,045
+<i>♪ ♪</i>
+
+280
+00:12:31,047 --> 00:12:33,247
+I got eyes on Little Lord Fauntleroy.
+
+281
+00:12:33,249 --> 00:12:35,350
+<i>I don't see him.</i>
+
+282
+00:12:35,352 --> 00:12:37,819
+It's because he's surrounded
+by Daddy's goon squad.
+
+283
+00:12:37,821 --> 00:12:41,656
+<i>Northeast corner of the plaza.</i>
+
+284
+00:12:41,658 --> 00:12:43,324
+Got him.
+
+285
+00:12:43,326 --> 00:12:45,126
+<i>You sure you don't want to just shoot him?</i>
+
+286
+00:12:45,128 --> 00:12:46,627
+It'd be a whole lot easier.
+
+287
+00:12:46,629 --> 00:12:49,864
+<i>Stick to the plan, both of you.</i>
+
+288
+00:12:52,335 --> 00:12:53,634
+<i>Now, Ms. Lance.</i>
+
+289
+00:12:53,636 --> 00:12:57,939
+[gunshot]
+
+290
+00:12:57,941 --> 00:12:59,841
+I'm in position.
+
+291
+00:12:59,843 --> 00:13:02,377
+<i>It's up to you now, Mr. Snart.</i>
+
+292
+00:13:02,379 --> 00:13:05,146
+<i>♪ ♪</i>
+
+293
+00:13:05,148 --> 00:13:06,280
+[lasers zapping]
+
+294
+00:13:06,282 --> 00:13:09,183
+[men exclaiming and shouting]
+
+295
+00:13:14,225 --> 00:13:16,793
+Since the introduction of our latest line
+
+296
+00:13:16,795 --> 00:13:18,494
+of autonomous law enforcement officers,
+
+297
+00:13:18,496 --> 00:13:21,331
+crime has dropped precipitously.
+
+298
+00:13:21,333 --> 00:13:22,532
+In fact, it's nonexistent.
+
+299
+00:13:22,534 --> 00:13:24,067
+Really?
+
+300
+00:13:24,069 --> 00:13:26,536
+Well, thank you for showing
+us around, Dr. Brice.
+
+301
+00:13:26,538 --> 00:13:28,071
+It's my pleasure.
+
+302
+00:13:28,073 --> 00:13:30,340
+We don't get very many
+visitors from Central City
+
+303
+00:13:30,342 --> 00:13:33,776
+ever since the S.T.A.R. Labs
+Corporation took it over.
+
+304
+00:13:36,614 --> 00:13:37,947
+Uh, unless I'm mistaken,
+
+305
+00:13:37,949 --> 00:13:40,516
+your tech utilizes a dwarf star alloy.
+
+306
+00:13:40,518 --> 00:13:44,754
+The technology is proprietary, but yes.
+
+307
+00:13:44,756 --> 00:13:46,556
+How did you know, Doctor...
+
+308
+00:13:46,558 --> 00:13:48,157
+Lecter...
+
+309
+00:13:48,159 --> 00:13:50,626
+Dr. Hannibal Lecter.
+
+310
+00:13:50,628 --> 00:13:55,965
+So how did you get into
+robotics, Dr. Brice?
+
+311
+00:13:55,967 --> 00:13:58,034
+Oh, well, it's in my blood.
+
+312
+00:13:58,036 --> 00:14:00,603
+Robotics have been a passion of my family
+
+313
+00:14:00,605 --> 00:14:02,372
+ever since my great-great-great-great
+
+314
+00:14:02,374 --> 00:14:05,174
+grandfather founded this company.
+
+315
+00:14:05,176 --> 00:14:08,745
+<i>[dramatic music]</i>
+
+316
+00:14:08,747 --> 00:14:11,013
+Is that...
+
+317
+00:14:11,015 --> 00:14:13,449
+Oh, my God.
+
+318
+00:14:13,451 --> 00:14:16,586
+<i>♪ ♪</i>
+
+319
+00:14:16,588 --> 00:14:18,488
+Huh, weird.
+
+320
+00:14:18,490 --> 00:14:19,789
+You look just like him.
+
+321
+00:14:19,791 --> 00:14:23,126
+Yes, I... I look just like...
+
+322
+00:14:23,128 --> 00:14:26,996
+yeah, that's... that's pretty weird.
+
+323
+00:14:30,291 --> 00:14:31,523
+I can't believe it.
+
+324
+00:14:31,525 --> 00:14:33,515
+I'm like the Werner Von Braun of robots.
+
+325
+00:14:33,626 --> 00:14:34,426
+The who?
+
+326
+00:14:34,428 --> 00:14:36,761
+The Nazi scientist who
+invented the V2 rocket,
+
+327
+00:14:36,763 --> 00:14:39,864
+built it using slave labor,
+then used it to level London.
+
+328
+00:14:39,956 --> 00:14:41,572
+Except my robots will one day be used
+
+329
+00:14:41,581 --> 00:14:43,180
+to level the entire world.
+
+330
+00:14:43,182 --> 00:14:44,815
+Ray, dude, do you not think
+
+331
+00:14:44,817 --> 00:14:46,884
+you're focusing on the wrong thing here?
+
+332
+00:14:46,886 --> 00:14:48,719
+I mean, you have a kid
+you didn't even know about.
+
+333
+00:14:48,721 --> 00:14:51,055
+<i>Had</i> a kid. In this particular time period,
+
+334
+00:14:51,057 --> 00:14:53,190
+his offspring would be long since dead.
+
+335
+00:14:53,192 --> 00:14:54,825
+Thank you,
+
+336
+00:14:54,827 --> 00:14:56,994
+as if I wasn't already feeling bad enough.
+
+337
+00:14:57,196 --> 00:14:59,263
+How is it even possible that I'm someone's
+
+338
+00:14:59,265 --> 00:15:02,099
+great-great-great-great grandfather?
+
+339
+00:15:02,101 --> 00:15:06,671
+Before we left in 2016,
+the only person I was...
+
+340
+00:15:06,673 --> 00:15:08,472
+Having sex with?
+
+341
+00:15:08,474 --> 00:15:11,409
+Ghosted me the week before we left.
+
+342
+00:15:11,411 --> 00:15:12,743
+Sh... she died?
+
+343
+00:15:12,745 --> 00:15:15,112
+No, no, ghosting.
+
+344
+00:15:15,114 --> 00:15:16,480
+It's where you pretend to be dead
+
+345
+00:15:16,482 --> 00:15:18,282
+by not answering somebody's text.
+
+346
+00:15:18,284 --> 00:15:20,451
+What a strange age for dating.
+
+347
+00:15:20,453 --> 00:15:25,189
+You think maybe she didn't
+reply to your text because...
+
+348
+00:15:25,191 --> 00:15:27,525
+She knew she was pregnant?
+
+349
+00:15:27,527 --> 00:15:28,726
+[scoffs]
+
+350
+00:15:28,728 --> 00:15:30,294
+No wonder my kid started the company
+
+351
+00:15:30,296 --> 00:15:31,962
+that manufactures evil robots.
+
+352
+00:15:31,964 --> 00:15:33,464
+If I'd never left 2016,
+
+353
+00:15:33,466 --> 00:15:34,899
+my child would have had a loving father,
+
+354
+00:15:34,901 --> 00:15:36,834
+and Palmer Tech might not have gone on
+
+355
+00:15:36,836 --> 00:15:38,803
+to build a robot army that Savage uses
+
+356
+00:15:38,805 --> 00:15:40,805
+to conquer the world.
+
+357
+00:15:40,807 --> 00:15:42,907
+Bit of a stretch, don't you think?
+
+358
+00:15:42,909 --> 00:15:47,244
+Either way, I was someone's father
+
+359
+00:15:47,246 --> 00:15:50,581
+and didn't even know it.
+
+360
+00:15:55,621 --> 00:15:57,521
+- Hey.
+- Hey.
+
+361
+00:15:57,523 --> 00:15:59,190
+Are you okay?
+
+362
+00:15:59,192 --> 00:16:01,726
+Fine. Oh, I'm fine.
+
+363
+00:16:01,728 --> 00:16:04,161
+You don't look fine.
+
+364
+00:16:04,163 --> 00:16:06,831
+I'm just a little... peckish.
+
+365
+00:16:06,833 --> 00:16:08,466
+Peckish?
+
+366
+00:16:08,468 --> 00:16:11,502
+It's nothing a little
+energy bar won't fix.
+
+367
+00:16:11,504 --> 00:16:14,672
+I'll see you.
+
+368
+00:16:22,515 --> 00:16:25,216
+Edith and Joseph Boardman?
+
+369
+00:16:25,218 --> 00:16:27,051
+Our new names.
+
+370
+00:16:27,053 --> 00:16:30,187
+Joe Boardman is a good name.
+
+371
+00:16:30,189 --> 00:16:32,957
+And besides, I've never
+kissed an Edith before,
+
+372
+00:16:32,959 --> 00:16:36,026
+but I certainly think
+I can get used to that.
+
+373
+00:16:38,364 --> 00:16:43,100
+And what about all this?
+
+374
+00:16:43,102 --> 00:16:45,669
+How do we explain to our son
+
+375
+00:16:45,671 --> 00:16:49,507
+why his mother and father keep
+moving every couple of years,
+
+376
+00:16:49,509 --> 00:16:51,041
+changing their names,
+
+377
+00:16:51,043 --> 00:16:53,210
+looking over their
+shoulders at every turn?
+
+378
+00:16:53,212 --> 00:16:57,548
+I don't know why we thought
+we could do this again.
+
+379
+00:16:57,550 --> 00:17:00,284
+Do you think we're selfish?
+
+380
+00:17:00,286 --> 00:17:01,485
+To have a family?
+
+381
+00:17:01,487 --> 00:17:02,987
+Because when Savage finds us...
+
+382
+00:17:02,989 --> 00:17:05,456
+- He won't.
+- He always finds us.
+
+383
+00:17:05,458 --> 00:17:07,391
+Maybe this life is different.
+
+384
+00:17:07,393 --> 00:17:10,060
+Do you honestly believe that?
+
+385
+00:17:11,898 --> 00:17:15,533
+Look...
+
+386
+00:17:15,535 --> 00:17:19,503
+all I know is that Savage
+is not the only thing
+
+387
+00:17:19,505 --> 00:17:22,640
+that's immortal, my love.
+
+388
+00:17:24,243 --> 00:17:26,377
+So is this.
+
+389
+00:17:36,055 --> 00:17:39,423
+What do genocidal maniacs
+dream about, I wonder?
+
+390
+00:17:39,425 --> 00:17:42,560
+<i>He's imagining himself baking
+cookies with his mother.</i>
+
+391
+00:17:42,562 --> 00:17:46,130
+Wait, you can monitor our dreams?
+
+392
+00:17:46,132 --> 00:17:48,098
+<i>Of course. For example, last night,</i>
+
+393
+00:17:48,100 --> 00:17:49,667
+<i>you had a rollicking fantasy
+involving a young nurse... </i>
+
+394
+00:17:49,669 --> 00:17:51,869
+Okay, Gideon, enough.
+
+395
+00:17:51,871 --> 00:17:54,238
+Gideon, check the timeline to make sure
+
+396
+00:17:54,240 --> 00:17:55,539
+that the kidnapping of the boy
+
+397
+00:17:55,541 --> 00:17:58,075
+had the desired effect upon the future.
+
+398
+00:17:58,077 --> 00:17:59,977
+<i>Oh, dear.</i>
+
+399
+00:17:59,979 --> 00:18:03,214
+<i>I'm afraid you'll be
+disappointed with the results.</i>
+
+400
+00:18:03,216 --> 00:18:04,615
+What do you mean, it did nothing?
+
+401
+00:18:04,617 --> 00:18:06,450
+I mean, that kidnapping Per Degaton
+
+402
+00:18:06,452 --> 00:18:08,285
+had a nominal effect upon the timeline.
+
+403
+00:18:08,287 --> 00:18:10,621
+Maybe we need to dump the little brat
+
+404
+00:18:10,623 --> 00:18:12,890
+somewhere he can't get into any trouble,
+
+405
+00:18:12,892 --> 00:18:14,658
+like the Stone Age.
+
+406
+00:18:14,660 --> 00:18:16,393
+<i>No matter where and
+when you sequester him</i>
+
+407
+00:18:16,395 --> 00:18:18,796
+<i>in the timeline, Savage
+will still rise to power.</i>
+
+408
+00:18:18,798 --> 00:18:21,532
+But Rip said this kid's
+like a baby Hitler.
+
+409
+00:18:21,534 --> 00:18:23,467
+Yes, I also said that
+time wants to happen,
+
+410
+00:18:23,469 --> 00:18:27,104
+and such a world-changing event
+like Savage's rise to power
+
+411
+00:18:27,106 --> 00:18:30,841
+can't be stopped merely by
+kidnapping his young pawn.
+
+412
+00:18:30,843 --> 00:18:32,142
+So we're back to plan A?
+
+413
+00:18:32,144 --> 00:18:34,178
+Snuffing the kid out in his sleep?
+
+414
+00:18:34,180 --> 00:18:38,048
+Let us not forget that
+this kid will one day
+
+415
+00:18:38,050 --> 00:18:42,152
+be responsible for billions of deaths,
+
+416
+00:18:42,154 --> 00:18:44,188
+including those of my family.
+
+417
+00:18:44,190 --> 00:18:45,923
+Say that you do stop Savage
+
+418
+00:18:45,925 --> 00:18:47,491
+and save the lives of your family.
+
+419
+00:18:47,493 --> 00:18:49,126
+Will you be able to look
+your own son in the eye
+
+420
+00:18:49,128 --> 00:18:51,896
+knowing what you did so he could live?
+
+421
+00:18:51,898 --> 00:18:55,366
+When the alternative is that
+I shall never see him again.
+
+422
+00:18:55,368 --> 00:18:57,101
+I got a better idea.
+
+423
+00:18:57,103 --> 00:18:58,669
+Instead of us arguing about
+whether we should kill him,
+
+424
+00:18:58,671 --> 00:19:00,838
+or where and when to dump him off,
+
+425
+00:19:00,840 --> 00:19:02,306
+why don't we just talk to him?
+
+426
+00:19:02,308 --> 00:19:04,341
+Savage has spent years
+corrupting his mind.
+
+427
+00:19:04,343 --> 00:19:07,511
+It's not too late for
+Per Degaton to change.
+
+428
+00:19:07,513 --> 00:19:08,712
+Says who?
+
+429
+00:19:08,714 --> 00:19:10,714
+Says someone with two tours
+
+430
+00:19:10,716 --> 00:19:12,416
+with the League of Assassins and a case
+
+431
+00:19:12,418 --> 00:19:15,386
+of bloodlust under her belt.
+
+432
+00:19:15,388 --> 00:19:18,322
+<i>[dark music]</i>
+
+433
+00:19:18,324 --> 00:19:19,924
+<i>♪ ♪</i>
+
+434
+00:19:19,926 --> 00:19:21,692
+[door opens]
+
+435
+00:19:21,694 --> 00:19:23,928
+Ah, finally,
+
+436
+00:19:23,930 --> 00:19:27,498
+someone who's willing to do a man's job.
+
+437
+00:19:27,500 --> 00:19:29,333
+Not why I'm here.
+
+438
+00:19:29,335 --> 00:19:30,601
+It's almost funny
+
+439
+00:19:30,603 --> 00:19:32,469
+how you guys keep parading in here
+
+440
+00:19:32,471 --> 00:19:35,506
+like it's some kind of
+confessional or something.
+
+441
+00:19:35,508 --> 00:19:37,875
+It's also not why I'm here.
+
+442
+00:19:37,877 --> 00:19:41,145
+Okay, I'll bite.
+
+443
+00:19:41,147 --> 00:19:43,681
+Everybody's out there arguing about
+
+444
+00:19:43,683 --> 00:19:45,015
+whether or not we should kill this kid,
+
+445
+00:19:45,017 --> 00:19:48,152
+'cause no one thinks he can change,
+
+446
+00:19:48,154 --> 00:19:51,121
+which made me think of you.
+
+447
+00:19:54,193 --> 00:19:57,061
+You know no one thinks you can change.
+
+448
+00:19:57,063 --> 00:19:58,896
+That's why you're in here.
+
+449
+00:19:58,898 --> 00:20:01,532
+The only reason I'm in
+here is if I get out,
+
+450
+00:20:01,534 --> 00:20:02,933
+I'm gonna give Snart some payback
+
+451
+00:20:02,935 --> 00:20:04,268
+he's not walking away from.
+
+452
+00:20:04,270 --> 00:20:05,769
+He saved your life.
+
+453
+00:20:05,771 --> 00:20:08,172
+He wussed out on killing
+me, not the same thing.
+
+454
+00:20:08,174 --> 00:20:09,673
+He marooned me.
+
+455
+00:20:09,675 --> 00:20:13,410
+It's not like he had many choices.
+
+456
+00:20:13,412 --> 00:20:15,212
+You know, while you were busy
+
+457
+00:20:15,214 --> 00:20:18,048
+selling us out to a homicidal time pirate,
+
+458
+00:20:18,050 --> 00:20:21,285
+Leonard and I almost died.
+
+459
+00:20:21,287 --> 00:20:24,455
+He was thinking about you,
+
+460
+00:20:24,457 --> 00:20:29,293
+told me about your
+partnership, your friendship.
+
+461
+00:20:29,295 --> 00:20:31,428
+Di it make you weepy?
+
+462
+00:20:33,032 --> 00:20:35,633
+You think it's gonna make me weepy?
+
+463
+00:20:35,635 --> 00:20:39,470
+He's your friend, a loyal one.
+
+464
+00:20:41,107 --> 00:20:42,940
+You should know that.
+
+465
+00:20:42,942 --> 00:20:45,409
+Well, thank you.
+
+466
+00:20:45,411 --> 00:20:49,146
+I'll work it out with
+him as soon as I can.
+
+467
+00:20:50,549 --> 00:20:53,951
+Oh, killing a kid,
+
+468
+00:20:53,953 --> 00:20:56,820
+not very hero-like.
+
+469
+00:21:12,204 --> 00:21:15,372
+[beeping]
+
+470
+00:21:16,475 --> 00:21:18,642
+Mr. Degaton.
+
+471
+00:21:18,644 --> 00:21:21,812
+For the last 50 years,
+everyone inside the Conglomerate
+
+472
+00:21:21,814 --> 00:21:23,414
+has submitted biosamples
+
+473
+00:21:23,416 --> 00:21:26,016
+so they can be tracked
+and monitored at all times,
+
+474
+00:21:26,018 --> 00:21:27,051
+but these three...
+
+475
+00:21:27,053 --> 00:21:29,053
+Are not from the Conglomerate,
+
+476
+00:21:29,055 --> 00:21:31,689
+nor are they even from the last 50 years.
+
+477
+00:21:31,691 --> 00:21:32,756
+How do you know?
+
+478
+00:21:32,758 --> 00:21:34,825
+Long story.
+
+479
+00:21:34,827 --> 00:21:38,462
+What's important is that
+I can get your son back.
+
+480
+00:21:38,464 --> 00:21:40,497
+How do you know they
+haven't killed him already?
+
+481
+00:21:40,499 --> 00:21:42,866
+Because I know the
+people who kidnapped him,
+
+482
+00:21:42,868 --> 00:21:46,003
+and they are weak...
+
+483
+00:21:46,005 --> 00:21:48,839
+<i>squeamish in matters of death.</i>
+
+484
+00:21:48,841 --> 00:21:51,775
+<i>[tense music]</i>
+
+485
+00:22:28,816 --> 00:22:30,315
+Who are you?
+
+486
+00:22:30,317 --> 00:22:32,184
+[laughs softly]
+
+487
+00:22:32,186 --> 00:22:34,820
+That's an excellent question.
+
+488
+00:22:34,822 --> 00:22:35,854
+[engine roars]
+
+489
+00:22:35,856 --> 00:22:38,323
+What was that?
+
+490
+00:22:38,325 --> 00:22:39,892
+That was our jump ship taking off.
+
+491
+00:22:39,894 --> 00:22:41,427
+How could Per Degaton have escaped?
+
+492
+00:22:41,429 --> 00:22:43,228
+Gideon, who else is on the jump ship?
+
+493
+00:22:43,230 --> 00:22:45,698
+<i>It's being piloted by Captain Hunter.</i>
+
+494
+00:22:45,700 --> 00:22:47,666
+Who just turned off his transponder.
+
+495
+00:22:47,668 --> 00:22:50,402
+Sounds like someone doesn't
+want us following him.
+
+496
+00:22:50,404 --> 00:22:52,004
+Why?
+
+497
+00:22:52,006 --> 00:22:54,339
+Because Rip doesn't want us stopping him.
+
+498
+00:22:54,341 --> 00:22:57,609
+Stopping him from doing what?
+
+499
+00:22:57,611 --> 00:23:00,412
+From killing Per Degaton.
+
+500
+00:23:03,678 --> 00:23:05,591
+Okay, just think about this.
+
+501
+00:23:05,993 --> 00:23:08,994
+Where could Rip be taking Per Degaton?
+
+502
+00:23:08,996 --> 00:23:12,531
+Jump ship's got a range of
+8,000 miles, so... anywhere.
+
+503
+00:23:12,533 --> 00:23:14,766
+It doesn't matter where he's taking him.
+
+504
+00:23:14,768 --> 00:23:16,835
+All that matters is
+what he's gonna do to him
+
+505
+00:23:16,837 --> 00:23:19,038
+- when he gets there.
+- Rip is not a murderer.
+
+506
+00:23:19,240 --> 00:23:20,772
+To Captain Hunter, this
+isn't about a killing.
+
+507
+00:23:20,774 --> 00:23:24,142
+- It's about saving.
+- Saving?
+
+508
+00:23:24,144 --> 00:23:29,414
+His son's life for Per Degaton's.
+
+509
+00:23:29,416 --> 00:23:32,784
+Rather simple if cold-blooded calculus
+
+510
+00:23:32,786 --> 00:23:34,853
+for a father to undertake.
+
+511
+00:23:34,855 --> 00:23:37,389
+<i>[dramatic music]</i>
+
+512
+00:23:37,391 --> 00:23:40,225
+<i>Do you know who I am?</i>
+
+513
+00:23:40,227 --> 00:23:41,693
+My father is going to...
+
+514
+00:23:41,695 --> 00:23:43,729
+Thank me?
+
+515
+00:23:43,731 --> 00:23:45,330
+I imagine there's a sizeable reward
+
+516
+00:23:45,332 --> 00:23:47,065
+for your safe return.
+
+517
+00:23:47,067 --> 00:23:50,068
+Relax.
+
+518
+00:23:50,070 --> 00:23:52,337
+You'll soon be home.
+
+519
+00:23:52,339 --> 00:23:55,040
+<i>♪ ♪</i>
+
+520
+00:23:58,979 --> 00:24:00,479
+Come on, honey, we got to get moving
+
+521
+00:24:00,481 --> 00:24:02,948
+or the train is going to leave without us.
+
+522
+00:24:02,950 --> 00:24:04,316
+Where are we going?
+
+523
+00:24:04,318 --> 00:24:06,184
+We are going on a little trip.
+
+524
+00:24:06,186 --> 00:24:09,221
+Just think of it as
+one of your adventures.
+
+525
+00:24:09,223 --> 00:24:10,923
+The bad man found us,
+
+526
+00:24:10,925 --> 00:24:14,259
+the one that you and Mommy
+talk about when I'm asleep?
+
+527
+00:24:16,931 --> 00:24:19,431
+Why is Vandal Savage chasing us?
+
+528
+00:24:21,835 --> 00:24:24,202
+It's time that he knew.
+
+529
+00:24:26,807 --> 00:24:28,440
+Come on.
+
+530
+00:24:33,213 --> 00:24:35,314
+Can you keep a secret, Aldus?
+
+531
+00:24:35,316 --> 00:24:40,319
+There's something... special
+about your mommy and daddy.
+
+532
+00:24:40,321 --> 00:24:43,221
+We've known each other
+for a very, very long time
+
+533
+00:24:43,223 --> 00:24:45,857
+and loved one another
+since the day we met.
+
+534
+00:24:45,859 --> 00:24:47,926
+I already know that story.
+
+535
+00:24:47,928 --> 00:24:48,927
+[light laughter]
+
+536
+00:24:48,929 --> 00:24:52,564
+You know part of that story.
+
+537
+00:24:52,566 --> 00:24:55,934
+Have you ever heard of
+a place called Egypt?
+
+538
+00:24:55,936 --> 00:24:59,972
+Well, it all began during
+the rule of Ramses II,
+
+539
+00:24:59,974 --> 00:25:01,974
+when late one night a big, magical meteor
+
+540
+00:25:01,976 --> 00:25:07,012
+smashed into the Temple
+of Horus, the hawk-god.
+
+541
+00:25:09,616 --> 00:25:13,318
+[footsteps tapping]
+
+542
+00:25:13,320 --> 00:25:15,854
+- Hey, you okay?
+- Hey.
+
+543
+00:25:15,856 --> 00:25:18,957
+Yeah, I'm fine.
+
+544
+00:25:18,959 --> 00:25:20,892
+I was just thinking.
+
+545
+00:25:20,894 --> 00:25:22,461
+What are you thinking about?
+
+546
+00:25:22,463 --> 00:25:25,330
+Let me into that
+4,000-year-old mind of yours.
+
+547
+00:25:27,234 --> 00:25:31,336
+The flashes I've been
+having, they aren't of Savage.
+
+548
+00:25:31,338 --> 00:25:35,440
+They're of Carter.
+
+549
+00:25:35,442 --> 00:25:38,377
+- Oh.
+- And they're not just memories.
+
+550
+00:25:38,379 --> 00:25:40,379
+They're feelings too.
+
+551
+00:25:40,381 --> 00:25:42,881
+Oh, well, I get that.
+
+552
+00:25:42,883 --> 00:25:44,783
+It must be really weird feeling like
+
+553
+00:25:44,785 --> 00:25:47,552
+you're cheating on me with him.
+
+554
+00:25:47,554 --> 00:25:49,654
+No, Ray.
+
+555
+00:25:49,656 --> 00:25:54,159
+I feel like I'm cheating on him with you.
+
+556
+00:25:57,231 --> 00:25:58,864
+I'm sorry.
+
+557
+00:26:00,234 --> 00:26:02,234
+No, it's... it's okay.
+
+558
+00:26:02,236 --> 00:26:04,469
+[chuckles]
+
+559
+00:26:04,471 --> 00:26:07,372
+I mean, I knew what I was getting into.
+
+560
+00:26:07,374 --> 00:26:10,208
+The last 206 times you fell in love,
+
+561
+00:26:10,210 --> 00:26:12,444
+it was with the same guy.
+
+562
+00:26:12,446 --> 00:26:16,148
+I guess this isn't a
+great time to talk about
+
+563
+00:26:16,150 --> 00:26:18,283
+what's been bothering you.
+
+564
+00:26:18,285 --> 00:26:19,651
+Ah, uh...
+
+565
+00:26:19,653 --> 00:26:22,888
+You're not the only perceptive one.
+
+566
+00:26:24,691 --> 00:26:27,092
+So what's wrong?
+
+567
+00:26:28,529 --> 00:26:32,931
+Turns out that I had a
+child I didn't know about
+
+568
+00:26:32,933 --> 00:26:36,735
+back in 2016, and here in the future,
+
+569
+00:26:36,737 --> 00:26:39,538
+my great-great-great-great granddaughter
+
+570
+00:26:39,540 --> 00:26:41,540
+creates the army of robot Gestapos
+
+571
+00:26:41,542 --> 00:26:46,711
+that Savage will one day
+use to destroy the world.
+
+572
+00:26:48,415 --> 00:26:50,015
+Why didn't you tell me?
+
+573
+00:26:52,119 --> 00:26:55,053
+I didn't want you to think less of me.
+
+574
+00:26:55,055 --> 00:27:00,058
+Ray, how could I ever think less of you?
+
+575
+00:27:01,795 --> 00:27:04,963
+Well, now that we've got
+that off our chests...
+
+576
+00:27:04,965 --> 00:27:08,133
+What does that mean for us?
+
+577
+00:27:12,639 --> 00:27:15,307
+No luck finding our homicidal captain?
+
+578
+00:27:15,309 --> 00:27:16,741
+Gideon's still searching,
+
+579
+00:27:16,743 --> 00:27:18,743
+but I have a feeling
+Rip's not gonna be found
+
+580
+00:27:18,745 --> 00:27:19,978
+if he doesn't want to be.
+
+581
+00:27:19,980 --> 00:27:22,080
+So what are you doing down here?
+
+582
+00:27:22,082 --> 00:27:25,050
+Don't you think you at
+least owe him a conversation?
+
+583
+00:27:25,052 --> 00:27:28,320
+We had our conversation
+while he was Chronos,
+
+584
+00:27:28,322 --> 00:27:31,189
+and he made his feelings
+about me very clear.
+
+585
+00:27:31,191 --> 00:27:32,791
+And what about your feelings?
+
+586
+00:27:32,793 --> 00:27:34,559
+About you?
+
+587
+00:27:34,561 --> 00:27:36,027
+About Mick.
+
+588
+00:27:36,029 --> 00:27:40,365
+I don't have any feelings about Mick.
+
+589
+00:27:42,336 --> 00:27:44,336
+Look, it didn't seem that way
+
+590
+00:27:44,338 --> 00:27:47,405
+when we were dying in the
+engine room of hypothermia.
+
+591
+00:27:47,407 --> 00:27:50,008
+Look, if you want to ease
+your guilty conscience,
+
+592
+00:27:50,010 --> 00:27:51,743
+that's your business,
+
+593
+00:27:51,745 --> 00:27:53,378
+but he's still the same
+son of a bitch he was
+
+594
+00:27:53,380 --> 00:27:55,547
+when you all wanted me to put him down.
+
+595
+00:27:55,549 --> 00:27:57,949
+I wasn't the one who
+mentioned marooning Rory.
+
+596
+00:27:57,951 --> 00:27:59,584
+You did.
+
+597
+00:27:59,586 --> 00:28:03,088
+It's obviously still
+weighing on your conscience.
+
+598
+00:28:03,090 --> 00:28:08,560
+So stop being an ass and go deal with it.
+
+599
+00:28:08,562 --> 00:28:11,496
+<i>[tense music]</i>
+
+600
+00:28:19,640 --> 00:28:22,107
+This isn't Kasnia.
+
+601
+00:28:22,109 --> 00:28:25,076
+I thought a neutral site
+would be best for this.
+
+602
+00:28:25,078 --> 00:28:27,412
+For what?
+
+603
+00:28:27,414 --> 00:28:29,748
+Exchanging me?
+
+604
+00:28:29,750 --> 00:28:33,518
+Did your father ever teach
+you to swim, Per Degaton?
+
+605
+00:28:33,520 --> 00:28:36,655
+No, I imagine he had someone
+do it for him, didn't he?
+
+606
+00:28:36,657 --> 00:28:40,525
+You're hardly lacking
+in tutors, are you...
+
+607
+00:28:40,527 --> 00:28:44,763
+such as Mr. Savage.
+
+608
+00:28:44,765 --> 00:28:46,298
+What are you talking about?
+
+609
+00:28:46,300 --> 00:28:49,401
+My son Jonas always
+wanted to learn to swim.
+
+610
+00:28:49,403 --> 00:28:51,436
+I promised him that I'd teach him,
+
+611
+00:28:51,438 --> 00:28:56,541
+but there never seemed to be... time.
+
+612
+00:28:58,178 --> 00:29:01,479
+My son never learned to swim,
+
+613
+00:29:01,481 --> 00:29:04,015
+because he was killed.
+
+614
+00:29:04,017 --> 00:29:07,485
+So... you brought me here to kill me.
+
+615
+00:29:07,487 --> 00:29:10,755
+I brought you here to save my son's life,
+
+616
+00:29:10,757 --> 00:29:13,124
+your life in exchange for his.
+
+617
+00:29:13,126 --> 00:29:16,761
+<i>♪ ♪</i>
+
+618
+00:29:16,763 --> 00:29:18,263
+I'm sorry.
+
+619
+00:29:18,265 --> 00:29:21,566
+No you're not.
+
+620
+00:29:21,568 --> 00:29:23,101
+You're not sorry,
+
+621
+00:29:23,103 --> 00:29:24,736
+because you're not going to kill me.
+
+622
+00:29:24,738 --> 00:29:26,037
+I have to.
+
+623
+00:29:26,039 --> 00:29:29,107
+To save my wife and son, I have to.
+
+624
+00:29:29,109 --> 00:29:31,009
+I don't expect you to understand.
+
+625
+00:29:31,011 --> 00:29:32,877
+It doesn't matter if I understand.
+
+626
+00:29:32,879 --> 00:29:34,579
+I can see it in your eyes.
+
+627
+00:29:34,581 --> 00:29:36,081
+You're not going to do it.
+
+628
+00:29:36,083 --> 00:29:40,585
+You're like my father, weak.
+
+629
+00:29:40,587 --> 00:29:42,520
+[gun clicks, charges]
+
+630
+00:29:42,522 --> 00:29:45,023
+Vandal Savage has taught me many things,
+
+631
+00:29:45,025 --> 00:29:49,060
+including what a killer looks like.
+
+632
+00:29:49,062 --> 00:29:52,931
+You're not a killer.
+
+633
+00:30:00,641 --> 00:30:03,942
+Your tutor has taught you well,
+
+634
+00:30:03,944 --> 00:30:05,577
+despite his ill intentions.
+
+635
+00:30:05,579 --> 00:30:06,878
+Vandal loves me.
+
+636
+00:30:06,880 --> 00:30:09,247
+Oh, he wants to use you as his pawn,
+
+637
+00:30:09,249 --> 00:30:12,517
+and ultimately, he will betray you.
+
+638
+00:30:12,519 --> 00:30:14,019
+No. No, he wouldn't.
+
+639
+00:30:14,021 --> 00:30:15,587
+I've said to myself time and time again
+
+640
+00:30:15,589 --> 00:30:17,422
+that there is nothing that I wouldn't do
+
+641
+00:30:17,424 --> 00:30:20,625
+to save my wife and son,
+but now I know that there is.
+
+642
+00:30:20,627 --> 00:30:22,994
+My reticence to kill you, Per Degaton,
+
+643
+00:30:22,996 --> 00:30:25,397
+is not weakness.
+
+644
+00:30:25,399 --> 00:30:27,832
+It is goodness.
+
+645
+00:30:27,834 --> 00:30:30,168
+And if there is a shred
+of goodness inside of me,
+
+646
+00:30:30,170 --> 00:30:31,903
+then I have to believe
+that there is a shred
+
+647
+00:30:31,905 --> 00:30:34,272
+of goodness inside of you.
+
+648
+00:30:37,311 --> 00:30:41,713
+Be the man that your
+father wants you to be,
+
+649
+00:30:41,715 --> 00:30:45,283
+not the man Savage wants you to be.
+
+650
+00:30:45,285 --> 00:30:48,219
+<i>[stirring music]</i>
+
+651
+00:31:02,168 --> 00:31:04,769
+Savage, he's coming.
+
+652
+00:31:04,771 --> 00:31:05,803
+[loud blast]
+
+653
+00:31:05,805 --> 00:31:06,372
+Gideon?
+
+654
+00:31:06,574 --> 00:31:08,814
+<i>Tor Degaton's forces
+have surrounded the ship.</i>
+
+655
+00:31:09,676 --> 00:31:11,108
+[lasers zapping]
+
+656
+00:31:11,110 --> 00:31:14,045
+<i>[suspenseful music]</i>
+
+657
+00:31:14,047 --> 00:31:16,047
+<i>♪ ♪</i>
+
+658
+00:31:16,049 --> 00:31:18,115
+<i>I'm afraid our shields
+will not be able to sustain</i>
+
+659
+00:31:18,117 --> 00:31:19,550
+<i>continued bombardment.</i>
+
+660
+00:31:19,552 --> 00:31:20,952
+You're afraid?
+
+661
+00:31:20,974 --> 00:31:22,173
+Here's an idea: why don't you fire back?
+
+662
+00:31:22,175 --> 00:31:23,941
+<i>I would, except... </i>
+
+663
+00:31:23,943 --> 00:31:25,843
+The flying robots already
+targeted our weapons systems.
+
+664
+00:31:25,845 --> 00:31:27,545
+We don't need weapons.
+
+665
+00:31:27,547 --> 00:31:29,947
+He's right. We have super powers.
+
+666
+00:31:29,949 --> 00:31:32,884
+<i>[dramatic music]</i>
+
+667
+00:31:36,990 --> 00:31:39,891
+[all grunting]
+
+668
+00:31:44,230 --> 00:31:46,664
+I think this is yours.
+
+669
+00:31:46,666 --> 00:31:48,966
+[both exclaim]
+
+670
+00:31:48,968 --> 00:31:51,369
+<i>♪ ♪</i>
+
+671
+00:31:51,371 --> 00:31:52,637
+[lasers zapping]
+
+672
+00:31:56,343 --> 00:32:00,011
+I'll draw their fire. You
+handle the ground troops.
+
+673
+00:32:00,013 --> 00:32:01,913
+Aah!
+
+674
+00:32:22,335 --> 00:32:23,835
+Ugh!
+
+675
+00:32:28,375 --> 00:32:30,708
+Ray, are you all right?
+
+676
+00:32:30,710 --> 00:32:32,910
+So this is what it feels
+like to be last year's model.
+
+677
+00:32:32,912 --> 00:32:35,947
+They're too fast. We
+have to find another way.
+
+678
+00:32:39,285 --> 00:32:41,886
+Forget about them. We'll
+hold off the robots.
+
+679
+00:32:41,888 --> 00:32:44,288
+We'll take out their command center.
+
+680
+00:32:58,972 --> 00:33:00,671
+Who are you?
+
+681
+00:33:00,673 --> 00:33:02,273
+Yeah.
+
+682
+00:33:04,711 --> 00:33:06,377
+<i>Ray, hurry up.</i>
+
+683
+00:33:06,379 --> 00:33:08,980
+I can only hold them back for so long.
+
+684
+00:33:12,118 --> 00:33:14,819
+Where did you get your suit?
+
+685
+00:33:14,821 --> 00:33:17,321
+Look, if you don't let us disable
+
+686
+00:33:17,323 --> 00:33:18,656
+your evil robot army,
+
+687
+00:33:18,658 --> 00:33:20,625
+then the whole world will be destroyed.
+
+688
+00:33:20,627 --> 00:33:24,462
+They're designed to bring peace.
+
+689
+00:33:24,464 --> 00:33:26,464
+I know.
+
+690
+00:33:26,466 --> 00:33:27,799
+I designed the robots.
+
+691
+00:33:27,801 --> 00:33:29,066
+What?
+
+692
+00:33:29,068 --> 00:33:32,236
+I am your great-great-great-great
+
+693
+00:33:32,238 --> 00:33:34,172
+grandfather, the guy you have a bust of
+
+694
+00:33:34,174 --> 00:33:38,543
+in your lobby, father
+of the robotics industry.
+
+695
+00:33:38,545 --> 00:33:41,179
+You're trying to tell me
+that you're Sidney Palmer?
+
+696
+00:33:41,181 --> 00:33:43,748
+Sidney?
+
+697
+00:33:43,750 --> 00:33:49,353
+Wait, the bust in your lobby
+is of my stupid brother?
+
+698
+00:33:49,355 --> 00:33:50,988
+Of course.
+
+699
+00:33:50,990 --> 00:33:52,323
+He must have gone to work for Felicity
+
+700
+00:33:52,325 --> 00:33:54,358
+in 2016 after I vanished.
+
+701
+00:33:54,360 --> 00:33:55,660
+He allowed my tech to be perverted
+
+702
+00:33:55,662 --> 00:33:58,596
+by the defense industry.
+That is so Sidney.
+
+703
+00:33:58,598 --> 00:34:02,500
+So that means that she's not...
+
+704
+00:34:02,502 --> 00:34:04,702
+I'm not a father.
+
+705
+00:34:06,506 --> 00:34:09,707
+So we still need your
+help disabling the robots.
+
+706
+00:34:11,744 --> 00:34:14,612
+A... and why should I believe you?
+
+707
+00:34:14,614 --> 00:34:17,281
+Because if you have even
+a drop of Palmer blood
+
+708
+00:34:17,283 --> 00:34:20,418
+in your veins, you'll do what's right.
+
+709
+00:34:25,108 --> 00:34:28,276
+[lasers zapping]
+
+710
+00:34:33,616 --> 00:34:36,617
+Looks like Raymond was able
+to sabotage his robot army.
+
+711
+00:34:36,619 --> 00:34:38,286
+Which means mopping up
+the rest of these guys
+
+712
+00:34:38,288 --> 00:34:39,887
+shouldn't be a problem.
+
+713
+00:34:39,889 --> 00:34:41,822
+Oh, it will be a problem.
+
+714
+00:34:43,092 --> 00:34:44,559
+What do you want?
+
+715
+00:34:44,561 --> 00:34:46,027
+I want to exchange this woman's life
+
+716
+00:34:46,029 --> 00:34:48,930
+for your captain, Rip Hunter.
+
+717
+00:34:48,932 --> 00:34:51,198
+I have a better idea:
+
+718
+00:34:51,200 --> 00:34:54,635
+her life in exchange for his.
+
+719
+00:34:57,777 --> 00:34:59,410
+Your son will be returned to you
+
+720
+00:34:59,412 --> 00:35:02,213
+as soon as you guarantee our safe passage.
+
+721
+00:35:02,215 --> 00:35:04,048
+Don't do it, Father.
+
+722
+00:35:04,050 --> 00:35:05,449
+If you let them go now,
+
+723
+00:35:05,451 --> 00:35:08,552
+they will only come back
+for us in the future.
+
+724
+00:35:08,554 --> 00:35:09,787
+It's your choice.
+
+725
+00:35:09,789 --> 00:35:12,723
+[gun clicks, charges]
+
+726
+00:35:12,725 --> 00:35:14,191
+Your son is right.
+
+727
+00:35:14,193 --> 00:35:17,294
+We should kill them all.
+
+728
+00:35:19,032 --> 00:35:20,598
+Put down your weapons!
+
+729
+00:35:20,600 --> 00:35:23,000
+- No, Father.
+- Let my son go,
+
+730
+00:35:23,002 --> 00:35:25,236
+and I will let you leave in peace.
+
+731
+00:35:25,238 --> 00:35:27,638
+You have my word.
+
+732
+00:35:27,640 --> 00:35:30,574
+<i>[tense music]</i>
+
+733
+00:35:38,618 --> 00:35:43,421
+Better find yourself a new mentor, kid.
+
+734
+00:36:10,186 --> 00:36:11,919
+What do you want?
+
+735
+00:36:11,921 --> 00:36:14,054
+People seem to think we
+should have a heart-to-heart.
+
+736
+00:36:14,056 --> 00:36:16,557
+We don't have hearts.
+Where does that leave us?
+
+737
+00:36:16,559 --> 00:36:18,325
+I've got a dozen reasons for killing you.
+
+738
+00:36:18,327 --> 00:36:21,128
+You've got a dozen and
+one for killing me, so...
+
+739
+00:36:21,130 --> 00:36:23,964
+All the talk in the world
+is not gonna change a thing.
+
+740
+00:36:23,966 --> 00:36:26,100
+Exactly, here's my proposal.
+
+741
+00:36:26,102 --> 00:36:30,137
+I open this cell, we let
+our fists do the talking.
+
+742
+00:36:38,114 --> 00:36:39,547
+When I kill you...
+
+743
+00:36:39,549 --> 00:36:41,816
+You take the jump ship, make your escape,
+
+744
+00:36:41,818 --> 00:36:45,653
+live out the rest of your
+life anywhere you like.
+
+745
+00:36:47,089 --> 00:36:48,556
+Hmm.
+
+746
+00:36:48,558 --> 00:36:52,760
+And if you kill me, well,
+
+747
+00:36:52,762 --> 00:36:54,995
+it's better than being
+locked up in this place
+
+748
+00:36:54,997 --> 00:36:58,566
+like some kind of circus freak.
+
+749
+00:36:58,568 --> 00:37:00,000
+I take that as a yes.
+
+750
+00:37:00,002 --> 00:37:02,403
+Sound the bell.
+
+751
+00:37:06,512 --> 00:37:08,012
+Hey.
+
+752
+00:37:08,014 --> 00:37:09,446
+You don't have to knock.
+
+753
+00:37:09,448 --> 00:37:11,649
+- It's your room too.
+- Yeah, I know.
+
+754
+00:37:11,651 --> 00:37:15,819
+It's just... things have been weird.
+
+755
+00:37:15,821 --> 00:37:19,056
+Since I told you I had a love child
+
+756
+00:37:19,058 --> 00:37:20,658
+that I didn't really have,
+
+757
+00:37:20,660 --> 00:37:22,593
+or since you told me that
+you're still in love with...
+
+758
+00:37:22,595 --> 00:37:26,163
+You know what I love about you, Ray, is,
+
+759
+00:37:26,165 --> 00:37:28,933
+you always manage to find the bright side.
+
+760
+00:37:28,935 --> 00:37:31,168
+And no matter what, you never give up.
+
+761
+00:37:31,170 --> 00:37:35,072
+So please, don't give up on us.
+
+762
+00:37:35,074 --> 00:37:37,541
+I'm not giving up,
+
+763
+00:37:37,543 --> 00:37:40,511
+but it's hard to ignore the math.
+
+764
+00:37:40,513 --> 00:37:42,947
+You and Carter have
+spent lifetimes together,
+
+765
+00:37:42,949 --> 00:37:47,217
+and in each one, you've fallen in love,
+
+766
+00:37:47,219 --> 00:37:49,887
+so why would this
+lifetime be any different?
+
+767
+00:37:51,490 --> 00:37:56,293
+Well, I never met you before.
+
+768
+00:37:57,530 --> 00:38:02,066
+Look, Ray, Carter is my past.
+
+769
+00:38:02,068 --> 00:38:06,003
+You are my future.
+
+770
+00:38:19,318 --> 00:38:21,018
+Vandal.
+
+771
+00:38:21,020 --> 00:38:23,854
+Oh, I didn't expect you
+up and about so soon.
+
+772
+00:38:23,856 --> 00:38:25,289
+My father wanted me to rest,
+
+773
+00:38:25,291 --> 00:38:27,591
+but I wanted to resume my studies.
+
+774
+00:38:27,593 --> 00:38:29,059
+Oh, good boy.
+
+775
+00:38:29,061 --> 00:38:30,961
+So... where should we begin?
+
+776
+00:38:30,963 --> 00:38:34,031
+Well, I was thinking Greek mythology.
+
+777
+00:38:34,033 --> 00:38:36,333
+Do you know the tale of Oedipus Rex?
+
+778
+00:38:36,335 --> 00:38:40,504
+He was a prince of thieves
+before his father exiled him.
+
+779
+00:38:40,506 --> 00:38:41,772
+Why?
+
+780
+00:38:41,774 --> 00:38:45,275
+Well, because the king was a coward.
+
+781
+00:38:45,277 --> 00:38:47,711
+He had heard a prophecy
+that one day his son
+
+782
+00:38:47,713 --> 00:38:51,615
+would take his crown, so
+he bound his boy's feet
+
+783
+00:38:51,617 --> 00:38:56,286
+and tossed him into the woods to die.
+
+784
+00:38:56,288 --> 00:38:57,688
+What did the boy do?
+
+785
+00:38:57,690 --> 00:38:59,957
+He did what he had to do.
+
+786
+00:38:59,959 --> 00:39:02,226
+And one day, the prophecy came true,
+
+787
+00:39:02,228 --> 00:39:06,764
+and the prince became a
+great and powerful king.
+
+788
+00:39:09,468 --> 00:39:11,835
+Though it wasn't easy.
+
+789
+00:39:11,837 --> 00:39:14,605
+Great things are never easy.
+
+790
+00:39:14,607 --> 00:39:17,541
+<i>[dark music]</i>
+
+791
+00:39:24,383 --> 00:39:26,717
+<i>Unfortunately, our
+interactions have done nothing</i>
+
+792
+00:39:26,719 --> 00:39:30,888
+<i>to halt Per Degaton's rise to power.</i>
+
+793
+00:39:30,890 --> 00:39:33,924
+<i>If anything, we've merely cemented it.</i>
+
+794
+00:39:38,597 --> 00:39:40,597
+<i>In fact, the virus, which
+wasn't supposed to be</i>
+
+795
+00:39:40,599 --> 00:39:43,000
+<i>unleashed upon the world
+for another five years... </i>
+
+796
+00:39:43,002 --> 00:39:45,235
+I'm sorry, Father.
+
+797
+00:39:48,240 --> 00:39:51,642
+<i>Will now be released in a matter of days.</i>
+
+798
+00:39:52,344 --> 00:39:54,611
+As you all know, our
+former chairman's chair
+
+799
+00:39:54,613 --> 00:39:58,115
+is in the Conglomerate passed to his son,
+
+800
+00:39:58,117 --> 00:40:02,219
+who due to his age elected
+me to act as his proxy.
+
+801
+00:40:06,261 --> 00:40:07,594
+First order of business,
+
+802
+00:40:07,596 --> 00:40:10,396
+I would like to revisit our discussion
+
+803
+00:40:10,398 --> 00:40:12,398
+concerning the population crisis
+
+804
+00:40:12,400 --> 00:40:14,367
+beyond the Conglomerate's borders.
+
+805
+00:40:14,369 --> 00:40:18,938
+As we all know, we
+already have a solution.
+
+806
+00:40:18,940 --> 00:40:21,241
+Did I do the right thing, Gideon?
+
+807
+00:40:21,243 --> 00:40:23,576
+<i>Not committing murder
+is generally considered</i>
+
+808
+00:40:23,578 --> 00:40:26,980
+<i>the right thing, Captain.</i>
+
+809
+00:40:26,982 --> 00:40:31,484
+In this instance...
+
+810
+00:40:31,486 --> 00:40:33,987
+I wonder.
+
+811
+00:40:33,989 --> 00:40:36,856
+[both grunting]
+
+812
+00:40:53,675 --> 00:40:56,142
+We had a deal, Mick.
+
+813
+00:40:56,144 --> 00:40:59,812
+Kill me and you walk.
+
+814
+00:40:59,814 --> 00:41:02,815
+It's what you wanted, isn't it,
+
+815
+00:41:02,817 --> 00:41:06,152
+to get off the team?
+
+816
+00:41:06,154 --> 00:41:09,022
+I don't know what I want anymore.
+
+817
+00:41:09,024 --> 00:41:11,958
+Truth is, it doesn't matter.
+
+818
+00:41:11,960 --> 00:41:14,894
+What are you talking about?
+
+819
+00:41:14,896 --> 00:41:19,699
+Whether I stay or leave, I'm dead.
+
+820
+00:41:19,701 --> 00:41:23,036
+We're all dead.
+
+821
+00:41:23,038 --> 00:41:24,837
+<i>Since I failed to bring you in,</i>
+
+822
+00:41:24,839 --> 00:41:27,340
+<i>the Time Master's want to bring me in,</i>
+
+823
+00:41:27,342 --> 00:41:31,311
+<i>and this time, they're not
+gonna take any chances.</i>
+
+824
+00:41:31,313 --> 00:41:34,881
+They're called the Hunters, mercenaries,
+
+825
+00:41:34,883 --> 00:41:38,117
+and unlike me, there isn't
+a human part left in them.
+
+826
+00:41:38,119 --> 00:41:40,587
+So they want to lock us all
+up in the Vanishing Point?
+
+827
+00:41:40,589 --> 00:41:42,222
+The Hunters do one thing:
+
+828
+00:41:42,224 --> 00:41:43,256
+kill,
+
+829
+00:41:43,258 --> 00:41:45,258
+whenever, wherever,
+
+830
+00:41:45,260 --> 00:41:47,260
+and they'll stop at nothing
+till every single one of us
+
+831
+00:41:47,262 --> 00:41:49,862
+is erased from the face of history.
+
+832
+00:41:52,067 --> 00:41:54,067
+Do you have any suggestions
+as to how we might
+
+833
+00:41:54,069 --> 00:41:56,236
+outsmart them, Mr. Rory?
+
+834
+00:41:56,238 --> 00:41:58,404
+Run.
+
+835
+00:41:59,910 --> 00:42:04,910
+- Synced and corrected by chamallow -
+- www.addic7ed.com -
+

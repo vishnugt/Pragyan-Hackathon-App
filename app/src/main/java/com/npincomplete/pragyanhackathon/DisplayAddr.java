@@ -99,7 +99,7 @@ public class DisplayAddr extends AppCompatActivity {
             }
 
             try {
-                URL url = new URL("http://02a4ba0f.ngrok.io/user/rating");
+                URL url = new URL("http://52.66.134.228:4000/user/rating");
                 HttpURLConnection connection = (HttpURLConnection) url.openConnection();
                 connection.setRequestMethod("POST");
                 connection.setDoOutput(true);

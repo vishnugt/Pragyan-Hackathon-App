@@ -212,7 +212,7 @@ public class TwoFragment extends ListFragment implements AdapterView.OnItemClick
             }
 
             try {
-                URL url = new URL("http://02a4ba0f.ngrok.io/user/emergency");
+                URL url = new URL("http://52.66.134.228:4000/user/emergency");
                 HttpURLConnection connection = (HttpURLConnection) url.openConnection();
                 connection.setRequestMethod("POST");
                 connection.setDoOutput(true);
